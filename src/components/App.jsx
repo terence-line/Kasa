@@ -4,6 +4,7 @@ import '../styles/App.css';
 import Header from './Header'
 import Home from './Home'
 import Apropos from './Apropos'
+import FicheLogement from './FicheLogement'
 import Footer from './Footer'
 import Error from './Error'
 
@@ -15,6 +16,7 @@ function App ()
         <Header />
         <Route path="/" component={ Home } />
         <Route path="/apropos" component={ Apropos } />
+        <Route path="/logement/:id" component={ FicheLogement } />
         <Route path="*" component={ Error } />
         <Footer />
       </Router>
