@@ -15,6 +15,7 @@
 
 
 .banner h1 {
+    z-index: 1;
     height: 68px;
     width: 705px;
     left: 373px;
@@ -46,10 +47,5 @@
 
 .masked .paysage1 {
     position: absolute;
-    width: 1278px;
-    height: 1933px;
-    left: 100px;
-    top: -573px;
     border-radius: 25px;
-
 }
