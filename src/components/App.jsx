@@ -4,6 +4,7 @@ import '../styles/App.css';
 import Header from './Header'
 import Home from './Home'
 import Apropos from './Apropos'
+import Footer from './Footer'
 
 function App ()
 {
@@ -13,6 +14,7 @@ function App ()
         <Header />
         <Route path="/" component={ Home } />
         <Route path="/apropos" component={ Apropos } />
+        <Footer />
       </Router>
 
     </div>
