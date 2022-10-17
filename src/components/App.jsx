@@ -14,8 +14,8 @@ function App ()
     <div className="container">
       <Router>
         <Header />
-        <Route path="/" component={ Home } />
-        <Route path="/apropos" component={ Apropos } />
+        <Route path="/" exact component={ Home } />
+        <Route path="/apropos" exact component={ Apropos } />
         <Route path="/logement/:id" component={ FicheLogement } />
         <Footer />
       </Router>
