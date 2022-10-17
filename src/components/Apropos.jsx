@@ -1,5 +1,4 @@
 import React from "react"
-import Header from '../components/Header'
 import '../styles/Apropos.css'
 
 function Apropos ()
@@ -7,7 +6,6 @@ function Apropos ()
 
     return (
         <div className="container-apropos">
-            <Header />
             <div className="fiabilite">
                 <p>Fiabilité</p>
                 <div className="respect">
