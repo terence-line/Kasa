@@ -1,0 +1,59 @@
+.error {
+    height: 1024px;
+    width: 1440px;
+    left: -543px;
+    top: 2085px;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.error-logo {
+    position: absolute;
+    width: 597px;
+    height: 263px;
+    left: 432px;
+    top: 277px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    height: 51px;
+    width: 872px;
+    left: 295px;
+    top: 606px;
+    position: absolute;
+    left: 20.49%;
+    right: 18.96%;
+    top: 59.18%;
+    bottom: 35.84%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+.p {
+    height: 26px;
+    width: 284px;
+    left: 578px;
+    top: 839px;
+    position: absolute;
+    left: 40.14%;
+    right: 40.14%;
+    top: 81.93%;
+    bottom: 15.53%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    color: #FF6060;
+}

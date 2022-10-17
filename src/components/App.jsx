@@ -5,6 +5,7 @@ import Header from './Header'
 import Home from './Home'
 import Apropos from './Apropos'
 import Footer from './Footer'
+import Error from './Error'
 
 function App ()
 {
@@ -14,6 +15,7 @@ function App ()
         <Header />
         <Route path="/" component={ Home } />
         <Route path="/apropos" component={ Apropos } />
+        <Route path="*" component={ Error } />
         <Footer />
       </Router>
 
