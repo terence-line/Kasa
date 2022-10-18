@@ -1,8 +1,8 @@
 .footer {
+    position: relative;
     height: 209px;
     width: 1440px;
-    top: 1450px;
-    position: relative;
+    top: 3333px;
     background: #000000;
 }
 

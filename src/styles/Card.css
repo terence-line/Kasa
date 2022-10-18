@@ -3,14 +3,14 @@
     flex-wrap: wrap;
     position: absolute;
     width: 1240px;
-    height: 829px;
+    height: 2750px;
     left: 100px;
     top: 437px;
     bottom: 43px;
     padding-top: 56px;
     background: #F7F7F7;
     border-radius: 25px;
-    overflow: auto;
+
 }
 
 .gallery a {
