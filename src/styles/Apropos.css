@@ -1,11 +1,20 @@
-.container-apropos {
-    position: relative;
+.banner-apropos {
+    position: absolute;
+    width: 1240px;
+    height: 223px;
+    left: 100px;
+    top: 152px;
+    margin-bottom: 31px;
+}
+
+.banner-apropos .paysage2 {
+    position: absolute;
+    border-radius: 25px;
 }
 
 .fiabilite {
-    position: absolute;
-    width: 1023px;
     height: 47px;
+    width: 1023px;
     left: 208px;
     top: 406px;
     position: absolute;
@@ -14,29 +23,32 @@
 }
 
 .fiabilite h1 {
+    height: 34px;
+    width: 97px;
+    left: 18.07px;
+    top: 5.61px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
     position: absolute;
     left: 1.77%;
     right: 88.75%;
     top: 11.93%;
     bottom: 15.72%;
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 142.6%;
-    /* or 34px */
     display: flex;
     align-items: center;
     color: #FFFFFF;
 }
 
 .respect {
-    position: absolute;
+    height: 47px;
     width: 1023px;
-    height: 184px;
-    left: 208px;
-    top: 484px;
-    background: #FF6060;
     border-radius: 5px;
+    position: absolute;
+    bottom: 74.46%;
+    background: #FF6060;
 }
 
 .respect h1 {
@@ -47,6 +59,7 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
+    letter-spacing: 0em;
     text-align: left;
     position: absolute;
     left: 1.77%;
@@ -60,13 +73,17 @@
 }
 
 .service {
-    position: absolute;
-    width: 1023px;
     height: 47px;
+    width: 1023px;
     left: 208px;
     top: 699px;
-    background: #FF6060;
     border-radius: 5px;
+    position: absolute;
+    left: 14.44%;
+    right: 14.51%;
+    top: 68.26%;
+    bottom: 27.15%;
+    background: #FF6060;
 }
 
 .service h1 {
@@ -77,6 +94,7 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 34px;
+    letter-spacing: 0em;
     text-align: left;
     position: absolute;
     left: 15.7%;
@@ -90,13 +108,19 @@
 }
 
 .responsabilite {
-    position: absolute;
-    width: 1023px;
     height: 47px;
+    width: 1023px;
     left: 208px;
     top: 776px;
+    border-radius: 5px;
+    position: absolute;
+    left: 14.44%;
+    right: 14.51%;
+    top: 75.78%;
+    bottom: 19.63%;
     background: #FF6060;
     border-radius: 5px;
+
 }
 
 .responsabilite h1 {
@@ -120,21 +144,20 @@
 }
 
 span {
-    height: 29.83px;
-    width: 89.49px;
+    height: 38.84px;
+    width: 89.50px;
     left: 226.07px;
-    top: 945.60px;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 19px;
-    text-align: left;
+    top: 1230.95px;
     position: absolute;
     left: 15.7%;
     right: 78.09%;
     top: 92.34%;
     bottom: 4.74%;
     font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 142.6%;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
