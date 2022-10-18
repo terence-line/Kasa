@@ -17,7 +17,7 @@
     height: 340px;
     width: 340px;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 55px;
     margin-bottom: 50px;
     cursor: pointer;
     text-decoration-line: none;
@@ -28,12 +28,12 @@
     height: 52px;
     width: 300px;
     left: 20px;
-    top: 78.82%;
+    top: 245px;
     display: flex;
     align-items: flex-end;
     position: relative;
     color: #FFFFFF;
-    right: 20px;
+    margin-right: 25px;
     padding-bottom: 10px;
     font-style: normal;
     font-weight: 500;
@@ -44,8 +44,8 @@
 a .image {
     height: 340px;
     width: 340px;
-
     border-radius: 10px;
     position: absolute;
     object-fit: cover;
+    opacity: 0.55;
 }
