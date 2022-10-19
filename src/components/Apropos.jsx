@@ -14,10 +14,7 @@ function Apropos ( props )
             <div className="banner-apropos">
                 <img src={ image } alt="paysage montagne" className="paysage2" />
             </div>
-
             <Collapsible />
-
-
         </div>
     )
 }
