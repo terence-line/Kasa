@@ -1,0 +1,73 @@
+.container-collapse {
+    position: relative;
+    height: 834px;
+    width: 1023px;
+    left: 208px;
+    top: 406px;
+    border: 2px solid black;
+}
+
+.collapse1,
+.collapse2,
+.collapse3,
+.collapse4 {
+    position: absolute;
+    width: 1023px;
+    height: 47px;
+    margin-bottom: 31px;
+    background: #FF6060;
+    border-radius: 5px;
+}
+
+.collapse2 {
+    margin-top: 78px;
+}
+
+.collapse3 {
+    margin-top: 156px;
+}
+
+.collapse4 {
+    margin-top: 234px;
+}
+
+.collapse1 h3,
+.collapse2 h3,
+.collapse3 h3,
+.collapse4 h3 {
+    height: 34px;
+    width: 97px;
+    left: 18.07px;
+    top: -17px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    position: absolute;
+    left: 1.77%;
+    right: 88.75%;
+    bottom: 15.72%;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+span {
+    height: 29.84px;
+    width: 89.5px;
+    left: 226.08px;
+    top: 945.61px;
+    position: absolute;
+    left: 15.7%;
+    right: 78.09%;
+    top: 92.34%;
+    bottom: 4.74%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
