@@ -82,13 +82,13 @@ span {
     height: 101px;
     left: 100px;
     top: 670px;
-    border: 2px solid black;
 }
 
 ul {
     display: flex;
     list-style: none;
     position: relative;
+    left: -40px;
 }
 
 li {
@@ -119,20 +119,37 @@ li {
     border-radius: 10px;
     position: absolute;
     background: #FF6060;
-    margin-left: 660px;
+    margin-left: 651px;
+    padding-left: 10px;
+    padding-right: -14px;
 }
 
 h3 {
+    position: relative;
     height: 26px;
     width: 106px;
     left: 20px;
-    top: 13px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
     color: #FFFFFF;
-    padding-left: 25px;
+    top: -5px;
+}
 
+.rate {
+    position: relative;
+    width: 196px;
+    height: 36px;
+    left: 1093px;
+    top: -50px;
+}
+
+.chevron2,
+.chevron3 {
+    position: absolute;
+    left: 91.25%;
+    top: 20px;
+    color: #FFFFFF;
 }

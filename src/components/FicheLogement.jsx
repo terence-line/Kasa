@@ -1,7 +1,12 @@
 import React from 'react'
 import '../styles/FicheLogement.css'
 import Carroussel from './Carroussel'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import icon from '../assets/chevron.png'
+import iconStar1 from '../assets/star-grey.png'
+import iconStar2 from '../assets/star-red.svg'
+
+
+
 //import Logements from '../datas/logements.json'
 
 
@@ -26,13 +31,23 @@ function FicheLogement ()
                     <li>Paris 10</li>
                 </ul>
 
+                <div className="rate">
+                    <img src={ iconStar2 } alt="star" className="star1" />
+                    <img src={ iconStar2 } alt="star" className="star2" />
+                    <img src={ iconStar2 } alt="star" className="star3" />
+                    <img src={ iconStar1 } alt="star" className="star4" />
+                    <img src={ iconStar1 } alt="star" className="star5" />
+
+
+                </div>
+
                 <div className='description'>
                     <h3>Description</h3>
-                    <FontAwesomeIcon icon="fa-solid fa-chevron-up 1" />
+                    <img src={ icon } alt="chevron" className="chevron2" />
                 </div>
                 <div className="equipements">
                     <h3>Équipements</h3>
-                    <FontAwesomeIcon icon="fa-solid fa-chevron-up 2" />
+                    <img src={ icon } alt="chevron" className="chevron3" />
                 </div>
 
             </div>
