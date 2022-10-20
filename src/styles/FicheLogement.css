@@ -166,3 +166,37 @@ h3 {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.text1 {
+    height: 156px;
+    width: 550px;
+    left: 20px;
+    top: 82px;
+    position: absolute;
+    left: 3.44%;
+    right: 2.06%;
+    top: 157.69%;
+    bottom: -357.69%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.6%;
+    color: #FF6060;
+}
+
+.text2 {
+    height: 182px;
+    width: 550px;
+    left: 20px;
+    top: 82px;
+    position: absolute;
+    left: 3.44%;
+    right: 2.06%;
+    top: 157.69%;
+    bottom: -407.69%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.6%;
+    color: #FF6060;
+}
