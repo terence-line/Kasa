@@ -15,6 +15,7 @@ function FicheLogement ()
     const [ open, setOpen ] = useState( true )
 
 
+
     return (
         <div>
 
@@ -77,9 +78,9 @@ function FicheLogement ()
                     ) }
                 </div>
 
-            </div >
+            </div>
 
-        </div >
+        </div>
     )
 }
 

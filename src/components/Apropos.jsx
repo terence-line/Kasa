@@ -15,6 +15,7 @@ function Apropos ( props )
                 <img src={ image } alt="paysage montagne" className="paysage2" />
             </div>
             <Collapsible />
+            <span>Miguel</span>
         </div>
     )
 }

@@ -4,7 +4,6 @@
     width: 1023px;
     left: 208px;
     top: 406px;
-    border: 2px solid black;
 }
 
 .collapse1,
@@ -20,15 +19,15 @@
 }
 
 .collapse2 {
-    margin-top: 78px;
+    margin-top: 170px;
 }
 
 .collapse3 {
-    margin-top: 156px;
+    margin-top: 340px;
 }
 
 .collapse4 {
-    margin-top: 234px;
+    margin-top: 510px;
 }
 
 .collapse1 h3,
@@ -53,27 +52,52 @@
     color: #FFFFFF;
 }
 
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    height: 23.86px;
+    width: 32px;
+    left: 960px;
+    top: 11px;
+    position: absolute;
+    border: none;
+    background: #FF6060;
+    transform: rotate(180deg);
+}
+
+.btn1:focus,
+.btn2:focus,
+.btn3:focus,
+.btn4:focus {
+    transform: rotate(0deg);
+}
+
 .chevron {
-    margin-top: 17px;
-    margin-left: 965px;
     cursor: pointer;
 }
 
-span {
-    height: 29.84px;
-    width: 89.5px;
-    left: 226.08px;
-    top: 945.61px;
+.open1,
+.open2,
+.open3,
+.open4 {
+    width: 1002px;
+    top: 48px;
+    border-radius: 5px;
     position: absolute;
-    left: 15.7%;
-    right: 78.09%;
-    top: 92.34%;
-    bottom: 4.74%;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 142.6%;
-    display: flex;
-    align-items: center;
-    color: #000000;
+    padding-top: 25px;
+    padding-left: 20px;
+    background: #F7F7F7;
+    border-radius: 5px;
+
+}
+
+.open1,
+.open2,
+.open3 {
+    height: 60px;
+}
+
+.open4 {
+    height: 80px;
 }
