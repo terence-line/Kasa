@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import '../styles/FicheLogement.css'
 import Carroussel from './Carroussel'
 import icon from '../assets/chevron.png'
@@ -12,6 +13,7 @@ import iconStar2 from '../assets/star-red.svg'
 
 function FicheLogement ()
 {
+    const [ open, setOpen ] = useState( false )
     return (
         <div>
 
@@ -43,11 +45,11 @@ function FicheLogement ()
 
                 <div className='description'>
                     <h3>Description</h3>
-                    <img src={ icon } alt="chevron" className="chevron2" />
+                    <button className="btn" onClick={ icon }><img src={ icon } alt="chevron" className="chevron2" /></button>
                 </div>
                 <div className="equipements">
                     <h3>Équipements</h3>
-                    <img src={ icon } alt="chevron" className="chevron3" />
+                    <button className="btn" onClick={ icon }><img src={ icon } alt="chevron" className="chevron3" /></button>
                 </div>
 
             </div>

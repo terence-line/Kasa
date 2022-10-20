@@ -146,10 +146,23 @@ h3 {
     top: -50px;
 }
 
+.btn {
+    height: 32px;
+    width: 32px;
+    left: 32px;
+    position: absolute;
+    left: 93%;
+    top: 20%;
+    opacity: 0.87;
+    background: #FF6060;
+    border: none;
+
+}
+
 .chevron2,
 .chevron3 {
-    position: absolute;
-    left: 91.25%;
-    top: 20px;
+    position: relative;
+    right: 4px;
     color: #FFFFFF;
+    cursor: pointer;
 }
