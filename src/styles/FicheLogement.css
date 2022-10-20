@@ -1,0 +1,138 @@
+.title {
+    position: absolute;
+    width: 635px;
+    height: 77px;
+    left: 100px;
+    top: 503px;
+}
+
+.title h1 {
+    height: 51px;
+    width: 635px;
+    left: 100px;
+    top: 503px;
+    position: absolute;
+    left: 6.94%;
+    right: 48.96%;
+    top: 55.96%;
+    bottom: 39.06%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+.title p {
+    height: 26px;
+    width: 176px;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    left: 6.94%;
+    right: 80.83%;
+    bottom: 36.52%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+
+span {
+    height: 52px;
+    width: 93px;
+    left: 1170px;
+    top: 573px;
+    border-radius: nullpx;
+    position: absolute;
+    width: 93px;
+    height: 52px;
+    left: 1170px;
+    top: 573px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: #FF6060;
+}
+
+.host-picture {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1273px;
+    top: 567px;
+    background: #C4C4C4;
+    border: 2px solid #C4C4C4;
+    border-radius: 50%;
+}
+
+.content {
+    position: absolute;
+    width: 1240px;
+    height: 101px;
+    left: 100px;
+    top: 670px;
+    border: 2px solid black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+
+li {
+    background: #FF6060;
+    border-radius: 10px;
+    height: 25px;
+    width: 115px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.description {
+    height: 52px;
+    width: 582px;
+    border-radius: 10px;
+    position: absolute;
+    background: #FF6060;
+}
+
+.equipements {
+    height: 52px;
+    width: 582px;
+    border-radius: 10px;
+    position: absolute;
+    background: #FF6060;
+    margin-left: 660px;
+}
+
+h3 {
+    height: 26px;
+    width: 106px;
+    left: 20px;
+    top: 13px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 25px;
+
+}
