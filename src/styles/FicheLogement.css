@@ -84,14 +84,14 @@ span {
     top: 670px;
 }
 
-ul {
+.content ul {
     display: flex;
     list-style: none;
     position: relative;
     left: -40px;
 }
 
-li {
+.content li {
     background: #FF6060;
     border-radius: 10px;
     height: 25px;
@@ -120,8 +120,6 @@ li {
     position: absolute;
     background: #FF6060;
     margin-left: 651px;
-    padding-left: 10px;
-    padding-right: -14px;
 }
 
 h3 {
@@ -167,16 +165,29 @@ h3 {
     cursor: pointer;
 }
 
+.container-text1,
+.container-text2 {
+    height: 249px;
+    width: 582px;
+    left: 0px;
+    top: 42px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 80.77%;
+    bottom: -459.62%;
+    background: #F7F7F7;
+}
+
 .text1 {
     height: 156px;
     width: 550px;
     left: 20px;
-    top: 82px;
-    position: absolute;
+    top: -20px;
     left: 3.44%;
     right: 2.06%;
-    top: 157.69%;
-    bottom: -357.69%;
+    text-align: left;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -188,11 +199,10 @@ h3 {
     height: 182px;
     width: 550px;
     left: 20px;
-    top: 82px;
+    top: 22px;
     position: absolute;
     left: 3.44%;
     right: 2.06%;
-    top: 157.69%;
     bottom: -407.69%;
     font-style: normal;
     font-weight: 400;
