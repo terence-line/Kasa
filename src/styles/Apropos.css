@@ -17,6 +17,17 @@
     margin-bottom: 31px;
 }
 
+.container_collapse {
+    border: 2px solid black;
+    position: relative;
+    width: 1023px;
+    top: 406px;
+    left: 208px;
+
+}
+
+
+
 .span-apropos {
     height: 29.84px;
     width: 89.5px;

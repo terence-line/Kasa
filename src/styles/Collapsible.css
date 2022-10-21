@@ -1,7 +1,37 @@
-.collapse {
-    position: relative;
-    width: 1023px;
-    top: 220px;
-    left: 100px;
+.collapse_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FF6060;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 47px;
+    padding-left: 20px;
+}
 
+.collapse_title:hover,
+.isOpen .collapse_title {
+    cursor: pointer;
+}
+
+.collapse_icon {
+    position: relative;
+    color: black;
+    transform: rotate(90deg);
+    height: 23.86px;
+    width: 14.06px;
+}
+
+.collapse_content {
+    background: #F6F6F6;
+
+    height: auto;
+    opacity: 1;
+
+    padding: 20px 10px;
+    transition: all .2s ease-in;
 }
