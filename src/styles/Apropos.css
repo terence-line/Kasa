@@ -5,8 +5,7 @@
     left: 100px;
     top: 152px;
     margin-bottom: 31px;
-    mix-blend-mode: darken;
-    background: #000000;
+    background: linear-gradient(to top, #000000 0%, #f6f6f6 100%);
     border-radius: 25px;
 }
 
@@ -16,23 +15,4 @@
     background: #F7F7F7;
     opacity: 0.6;
     margin-bottom: 31px;
-}
-
-span {
-    height: 29.84px;
-    width: 89.5px;
-    left: 226.08px;
-    top: 945.61px;
-    position: absolute;
-    left: 15.7%;
-    right: 78.09%;
-    top: 92.34%;
-    bottom: 4.74%;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 142.6%;
-    display: flex;
-    align-items: center;
-    color: #000000;
 }

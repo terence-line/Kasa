@@ -122,7 +122,8 @@ span {
     margin-left: 651px;
 }
 
-h3 {
+.description h3,
+.equipements h3 {
     position: relative;
     height: 26px;
     width: 106px;

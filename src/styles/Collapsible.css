@@ -73,6 +73,9 @@
     transform: rotate(0deg);
 }
 
+.chevron,
+.chevron2,
+.chevron,
 .chevron {
     cursor: pointer;
 }
@@ -100,4 +103,23 @@
 
 .open4 {
     height: 80px;
+}
+
+.span {
+    height: 29.84px;
+    width: 89.5px;
+    left: 226.08px;
+    top: 945.61px;
+    position: absolute;
+    left: 15.7%;
+    right: 78.09%;
+    top: 92.34%;
+    bottom: 4.74%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }

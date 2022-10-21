@@ -4,15 +4,16 @@ import icon from '../assets/chevron.png'
 
 function Collapsible ()
 {
-    const [ open, setOpen ] = useState( true )
+    const [ isOpen, setIsOpen ] = useState( false )
 
     return (
+
         <div className="container-collapse">
 
-            <div div className="collapse1" >
+            <div className="collapse1" >
                 <h3>Fiabilité</h3>
-                <button className="btn1" onClick={ icon }><img src={ icon } alt="chevron" className="chevron2" /></button>
-                { open && (
+                <button className="btn1" onClick={ () => setIsOpen( !isOpen ) }><img src={ icon } alt="chevron" className="chevron1" /></button>
+                { isOpen && (
                     <div className="open1">
                         Les annonces postées sur Kasa garantissent une fiabilité totale.
                         Les photos sont conformes aux logements, et toutes les informations
@@ -23,8 +24,8 @@ function Collapsible ()
 
             <div className="collapse2">
                 <h3>Respect</h3>
-                <button className="btn2" onClick={ icon }><img src={ icon } alt="chevron" className="chevron2" /></button>
-                { open && (
+                <button className="btn2" onClick={ () => setIsOpen( !isOpen ) }><img src={ icon } alt="chevron" className="chevron2" /></button>
+                { isOpen && (
                     <div className="open2">
                         La bienveillance fait partie des valeurs fondatrices de Kasa.
                         Tout comportement discriminatoire ou de perturbation du voisinage entraînera
@@ -35,8 +36,8 @@ function Collapsible ()
 
             <div className="collapse3">
                 <h3>Service</h3>
-                <button className="btn3" onClick={ icon }><img src={ icon } alt="chevron" className="chevron2" /></button>
-                { open && (
+                <button className="btn3" onClick={ () => setIsOpen( !isOpen ) }><img src={ icon } alt="chevron" className="chevron3" /></button>
+                { isOpen && (
                     <div className="open3">
                         Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite.
                         N'hésitez pas à nous contacter si vous avez la moindre question.
@@ -46,8 +47,8 @@ function Collapsible ()
 
             <div className="collapse4" >
                 <h3>Sécurité</h3>
-                <button className="btn4" onClick={ icon }><img src={ icon } alt="chevron" className="chevron2" /></button>
-                { open && (
+                <button className="btn4" onClick={ () => setIsOpen( !isOpen ) }><img src={ icon } alt="chevron" className="chevron4" /></button>
+                { isOpen && (
                     <div className="open4">
                         La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs,
                         chaque logement correspond aux critères de sécurité établis par nos services.
@@ -56,6 +57,7 @@ function Collapsible ()
                         des ateliers sur la sécurité domestique pour nos hôtes.
                     </div> ) }
             </div>
+            <span className="span">Miguel</span>
         </div>
     )
 }
