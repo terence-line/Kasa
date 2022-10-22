@@ -17,8 +17,6 @@
     padding-left: 20px;
 }
 
-
-
 .collapse_icon {
     position: relative;
     transform: rotate(0deg);
@@ -26,6 +24,7 @@
     right: 30px;
     cursor: pointer;
 }
+
 
 .collapse_content {
     background: #F6F6F6;
