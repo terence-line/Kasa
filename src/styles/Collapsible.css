@@ -20,10 +20,11 @@
 
 .collapse_icon {
     position: relative;
-    color: black;
-    transform: rotate(90deg);
+    transform: rotate(180deg);
     height: 23.86px;
     width: 14.06px;
+    top: 6px;
+    right: 30px;
 }
 
 .collapse_content {
