@@ -4,7 +4,6 @@
     height: 223px;
     left: 100px;
     top: 152px;
-    margin-bottom: 31px;
     background: linear-gradient(to top, #000000 0%, #f6f6f6 100%);
     border-radius: 25px;
 }
@@ -14,7 +13,6 @@
     border-radius: 25px;
     background: #F7F7F7;
     opacity: 0.6;
-    margin-bottom: 31px;
 }
 
 .container_collapse {
@@ -22,7 +20,6 @@
     width: 1023px;
     top: 416px;
     left: 208px;
-
 }
 
 
@@ -43,5 +40,5 @@
     line-height: 142.6%;
     display: flex;
     align-items: center;
-    color: red;
+    color: #FFFFFF;
 }

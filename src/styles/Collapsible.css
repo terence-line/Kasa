@@ -1,3 +1,7 @@
+.collapse {
+    margin-bottom: 40px;
+}
+
 .collapse_title {
     display: flex;
     align-items: center;
@@ -13,26 +17,23 @@
     padding-left: 20px;
 }
 
-.collapse_title:hover,
-.isOpen .collapse_title {
-    cursor: pointer;
-}
+
 
 .collapse_icon {
     position: relative;
-    transform: rotate(180deg);
-    height: 23.86px;
-    width: 14.06px;
-    top: 6px;
+    transform: rotate(0deg);
+    height: 20px;
     right: 30px;
+    cursor: pointer;
 }
 
 .collapse_content {
     background: #F6F6F6;
-
     height: auto;
     opacity: 1;
-
+    overflow: hidden;
     padding: 20px 10px;
+    margin-bottom: 40px;
     transition: all .2s ease-in;
 }
+
