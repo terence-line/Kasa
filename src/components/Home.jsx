@@ -9,7 +9,7 @@ function Home ()
 {
     return (
         
-            <div className="body-home">
+            <div>
 
                 <div className="banner">
                     <h1>Chez vous, partout et ailleurs</h1>
@@ -17,8 +17,12 @@ function Home ()
                         <img src={ image } alt="paysage montagne au bord de l'eau" className="paysage1" />
                     </div>
                 </div>
-            
-                <Card />
+                <div className="gallery-home">
+                    <Card />
+                </div>
+                <div>
+                    <Footer />
+                </div>
             
             </div>
 

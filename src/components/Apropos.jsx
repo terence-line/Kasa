@@ -24,7 +24,7 @@ function Apropos ()
 
             <span className="span-apropos">Miguel</span>
 
-            <div className="footer-apropos">
+            <div>
                 <Footer />
             </div>
 
