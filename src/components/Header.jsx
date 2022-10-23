@@ -6,12 +6,15 @@ import '../styles/Header.css'
 function Header ()
 {
     return (
-        <div className="header">
-            <img src={ logo } alt="logo Kasa" className="header-logo" />
-            <nav className="header-links">
-                <Link to="/">Accueil</Link>
-                <Link to="/apropos">A propos</Link>
-            </nav>
+
+        <div className="body-header">
+            <div className="header">
+                <img src={ logo } alt="logo Kasa" className="header-logo" />
+                <nav className="header-links">
+                    <Link to="/">Accueil</Link>
+                    <Link to="/apropos">A propos</Link>
+                </nav>
+            </div>
         </div>
     )
 
