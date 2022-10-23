@@ -1,7 +1,7 @@
 .body-home {
     max-width: 1440px;
     min-width: 992px;
-    height: auto;
+    height: 1024px;
 }
 
 .banner {
@@ -60,7 +60,7 @@
     .body-home {
         max-width: 991px;
         min-width: 768px;
-}
+    }
 
 }
 
@@ -69,7 +69,7 @@
     .body-home {
         max-width: 767.99px;
         min-width: 320px;
-        display: flex;
-}
+        height: auto;
+    }
 
-}
+}       

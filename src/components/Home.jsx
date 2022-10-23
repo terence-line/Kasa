@@ -17,15 +17,7 @@ function Home ()
                         <img src={ image } alt="paysage montagne au bord de l'eau" className="paysage1" />
                     </div>
                 </div>
-
-                <div className="card">
                     <Card />
-                </div>
-            
-                <div className="footer-home">
-                    <Footer />
-                </div>
-            
             </div>
 
     )
