@@ -4,7 +4,23 @@
 
 .container {
     position: relative;
-    width: 1440px;
-    height: 1024px;
+    max-width: 1440px;
+    min-height: 992px;
+    height: 100%;
     background: #FFFFFF;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 991px;
+        min-width: 768px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 767.99px;
+        min-width: 320px;
+    }
 }
