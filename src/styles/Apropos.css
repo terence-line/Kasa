@@ -1,3 +1,9 @@
+.body-apropos {
+    max-width: 1440px;
+    min-width: 992px;
+    height: auto;
+}
+
 .banner-apropos {
     position: absolute;
     width: 1240px;
@@ -22,8 +28,6 @@
     left: 208px;
 }
 
-
-
 .span-apropos {
     height: 29.84px;
     width: 89.5px;
@@ -42,8 +46,24 @@
     color: #FFFFFF;
 }
 
+.footer-apropos {
+    
+}
 
-@media screen and (max-width:768px) {
+
+@media screen and (max-width: 991px) {
+    .body-apropos {
+        max-width: 991px;
+        min-width: 768px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .body-apropos {
+        max-width: 767.99px;
+        min-width: 320px;
+    }
 
     .banner-apropos { 
         max-width: 768px;
