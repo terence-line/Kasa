@@ -41,3 +41,27 @@
     align-items: center;
     color: #FFFFFF;
 }
+
+
+@media screen and (max-width:768px) {
+
+    .banner-apropos { 
+       max-width: 768px;
+       min-width: 375px;
+
+    }
+    
+    .banner-apropos .paysage2 {
+        max-width: 768px;
+        min-width: 375px;
+    }
+    
+    .container_collapse {
+        max-width: 768px;
+        min-width: 375px;
+    }
+    
+    
+
+}
+    

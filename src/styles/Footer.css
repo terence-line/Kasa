@@ -34,3 +34,24 @@ p {
     top: 31.58%;
     bottom: 49.55%;
 }
+
+@media screen and (max-width:768px) {
+
+    .footer {
+       max-width: 768px;
+       min-width: 375px;
+    }
+
+    p { 
+        height: 46px;
+width: 513px;
+left: 27%;
+top: 101px;
+border-radius: nullpx;
+   
+    }
+
+    .footer-logo {
+        left: 43%;
+    }
+}
