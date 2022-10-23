@@ -8,7 +8,7 @@ import Footer from './Footer'
 function Home ()
 {
     return (
-        <div>
+        
             <div className="body-home">
 
                 <div className="banner">
@@ -17,10 +17,16 @@ function Home ()
                         <img src={ image } alt="paysage montagne au bord de l'eau" className="paysage1" />
                     </div>
                 </div>
-                <Card />
+
+                <div className="card">
+                    <Card />
+                </div>
+            
+                <div className="footer-home">
+                    <Footer />
+                </div>
+            
             </div>
-            <Footer />
-        </div>
 
     )
 }
