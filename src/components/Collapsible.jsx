@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Collapsible.css'
 import icon from '../assets/chevron.png'
-import { faRotate } from '@fortawesome/free-solid-svg-icons'
 
 function Collapsible ( { title, content } )
 {
