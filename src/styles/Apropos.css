@@ -46,9 +46,7 @@
     color: #FFFFFF;
 }
 
-.footer-apropos {
-    
-}
+
 
 
 @media screen and (max-width: 991px) {
@@ -68,14 +66,14 @@
     .banner-apropos { 
         max-width: 768px;
         left: 20px;
-        height: 258px;
+        height: 400px;
         min-width: 336px;
     }
     
     
     .banner-apropos .paysage2 {
         max-width: 768px;
-        height: 258px;
+        height: 400px;
         min-width: 335px;
     }
     
@@ -83,7 +81,7 @@
         max-width: 768px;
         min-width: 375px;
         left: 20px;
-        top: 456px;
+        top: 600px;
     }
 
     .span-apropos  {
