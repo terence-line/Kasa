@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/FicheLogement.css'
+import Footer from './Footer'
 import Carroussel from './Carroussel'
 import icon from '../assets/chevron.png'
 import iconStar1 from '../assets/star-grey.png'
@@ -41,16 +42,10 @@ function FicheLogement ()
                     <img src={ iconStar2 } alt="star" className="star3" />
                     <img src={ iconStar1 } alt="star" className="star4" />
                     <img src={ iconStar1 } alt="star" className="star5" />
-
-
                 </div>
 
-
-
-
-
             </div>
-
+            <Footer />
         </div>
     )
 }

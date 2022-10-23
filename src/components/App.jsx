@@ -5,7 +5,6 @@ import Header from './Header'
 import Home from './Home'
 import Apropos from './Apropos'
 import FicheLogement from './FicheLogement'
-import Footer from './Footer'
 import Error from './Error'
 
 
@@ -27,7 +26,6 @@ function App ()
           <Route path="/fichelogement" component={ FicheLogement } />
           <Route path="*" component={ Error } />
         </Switch>
-        <Footer />
       </Router>
 
     </div>

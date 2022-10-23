@@ -1,6 +1,7 @@
 import React from "react"
 import '../styles/Apropos.css'
 import image from '../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.jpg'
+import Footer from './Footer'
 //import icon from '../assets/icons8-chevron-down-30.png'
 import Collapsible from './Collapsible'
 
@@ -22,6 +23,10 @@ function Apropos ()
             </div>
 
             <span className="span-apropos">Miguel</span>
+
+            <div className="footer-apropos">
+                <Footer />
+            </div>
 
         </div>
     )

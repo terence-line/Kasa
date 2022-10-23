@@ -1,6 +1,7 @@
 .body-home {
-    position: absolute;
-    height: 1095px;
+    max-width: 1440px;
+    min-width: 992px;
+    height: auto;
 }
 
 .banner {
@@ -51,5 +52,24 @@
     background: #000000;
     mix-blend-mode: darken;
     opacity: 0.7;
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .body-home {
+        max-width: 991px;
+        min-width: 768px;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .body-home {
+        max-width: 767.99px;
+        min-width: 320px;
+        height: auto;
+}
 
 }

@@ -3,6 +3,7 @@ import React from "react"
 import Card from '../components/Card'
 import '../styles/Home.css'
 import image from '../assets/eric-muhr-P_XxsdVgtpQ-unsplash.jpg'
+import Footer from './Footer'
 
 function Home ()
 {
@@ -18,6 +19,7 @@ function Home ()
                 </div>
                 <Card />
             </div>
+            <Footer />
         </div>
 
     )
