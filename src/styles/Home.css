@@ -77,7 +77,7 @@
 
     .banner, .banner.masked, .masked .paysage1 {
         width: 738px;
-        height: 141px;
+        height: 161px;
         left: 20px;
         background: linear-gradient(to right, #000000 -186%, #f7f7f7 100%);
     }
@@ -93,7 +93,7 @@
         line-height: 40px;
         font-weight: 900px;  
         font-size: 24px;
-        top: 28.04%;
+        top: 33.04%;
         padding-right: 70px;
     
 

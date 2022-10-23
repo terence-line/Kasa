@@ -58,7 +58,7 @@ a .image {
         height: auto;
         left: -20px;
         background: none;
-top: 307px;
+        top: 307px;
 
     }
 
@@ -66,13 +66,12 @@ top: 307px;
         display: block;
         flex-direction: column;
         border-radius: 10px;
-        width: 738px;
-        
-        
+        width: 738px; 
     }
 
     a .image {
         width: 738px;
-    
     }
+
+    
 }   
