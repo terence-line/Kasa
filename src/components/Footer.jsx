@@ -8,7 +8,7 @@ function Footer ()
 
     return (
         <div className="footer">
-            <p>© 2020 Kasa. All rights reserved</p>
+            <p className="footer-p">© 2020 Kasa. All rights reserved</p>
             <img src={ logo } alt="logo agence Kasa" className='footer-logo' />
         </div>
     )

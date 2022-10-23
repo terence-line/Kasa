@@ -1,12 +1,13 @@
 .footer {
     position: relative;
     height: 209px;
-    width: 1440px;
+    max-width: 1440px;
+    min-width: 992px;
     top: 3333px;
     background: #000000;
 }
 
-p {
+.footer-p {
     height: 46px;
     width: 400px;
     left: 38%;
@@ -38,17 +39,15 @@ p {
 @media screen and (max-width:768px) {
 
     .footer {
-       max-width: 768px;
+       max-width: 767.99px;
        min-width: 375px;
     }
 
-    p { 
+    .footer-p { 
         height: 46px;
-width: 513px;
-left: 27%;
-top: 101px;
-border-radius: nullpx;
-   
+        width: 513px;
+        left: 27%;
+        top: 101px;
     }
 
     .footer-logo {

@@ -1,8 +1,12 @@
+.body-error {
+    max-width: 1440px;
+    min-width: 992px;
+}
+
 .error {
-    height: 1024px;
-    width: 1440px;
     top: 277px;
-    left: 432px;
+    width: 140px;
+    left: 440px;
     position: relative;
 }
 
@@ -50,4 +54,36 @@
     align-items: flex-end;
     text-decoration-line: underline;
     color: #FF6060;
+}
+
+@media screen and (max-width: 991px) {
+    .body-error {
+        max-width: 991px;
+        min-width: 768px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .body-home {
+        max-width: 767.99px;
+        min-width: 320px;
+    }
+
+    .error {
+        width: 198px;
+        left: 100px;
+        top: 506px;
+    }
+
+    .error-logo {
+        width: 198px;
+        height: 99px;
+    }
+
+    .error h1 {
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: center;
+    }
+
 }
