@@ -26,8 +26,12 @@ function FicheLogement ()
                 <p>Paris, Île-de-France</p>
             </div>
 
-            <span className="span-fichelogement">Alexandre Dumas</span>
-            <div className="host-picture"/>
+            <div className="host">
+                <span className="span-host">Alexandre Dumas</span>
+                <div className='host-picture'>
+                    <img src="" alt="photo de profil" />
+                </div>
+            </div>
 
             <div className='content'>
                 <ul>
