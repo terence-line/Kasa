@@ -89,15 +89,15 @@ nav a:nth-child(2):focus {
     
     nav a {
         height: 17px;
-        width: 140px;
+        width: 130px;
     }
 
     nav a:first-child {
-        left: 550px;
+        left: 520px;
     }
 
     nav a:nth-child(2) {
-        left: 654px;
+        left: 624px;
     }
 }
     

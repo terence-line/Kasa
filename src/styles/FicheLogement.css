@@ -231,8 +231,7 @@
     height: 52px;
     width: 582px;
     margin-top: -20px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
 @media screen and (max-width: 991px) {
@@ -261,6 +260,31 @@
     .span-fichelogement {
         display: flex;
         flex-direction: column;
+    }
+
+    .host {
+        top: 750px;
+        left: 530px;
+    }
+
+    .content {
+        left: 20px;
+    }
+
+    .rate {
+        left: -1155px;
+        top: 710px;
+    }
+
+    .collapse-fichelogement {
+        flex-direction: column;
+        top: 770px;
+        left: -230px;
+    }
+
+    .collapse-fichelogement-item {
+        margin-top: 25px;  
+        width: 740px;
     }
 
 }

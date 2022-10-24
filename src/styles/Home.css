@@ -82,6 +82,7 @@
 
     .masked .paysage1 {
         object-fit: cover;
+        left: 0px;
     }
 
     .banner h1 {
