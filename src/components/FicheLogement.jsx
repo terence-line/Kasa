@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import '../styles/FicheLogement.css'
 import Footer from './Footer'
 import Carroussel from './Carroussel'
-import icon from '../assets/chevron.png'
 import iconStar1 from '../assets/star-grey.png'
 import iconStar2 from '../assets/star-red.svg'
 import Collapsible from './Collapsible'
@@ -15,8 +14,6 @@ import Collapsible from './Collapsible'
 function FicheLogement ()
 {
     const [ open, setOpen ] = useState( true )
-
-
 
     return (
         

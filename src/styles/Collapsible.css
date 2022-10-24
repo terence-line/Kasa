@@ -15,12 +15,12 @@
     border-radius: 5px;
     height: 47px;
     padding-left: 20px;
+    padding-right: 30px;
+    
 }
 
 .collapse_icon {
-    position: relative;
     height: 20px;
-    right: 30px;
     cursor: pointer;
 }
 
