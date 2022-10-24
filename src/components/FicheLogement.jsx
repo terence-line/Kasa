@@ -17,16 +17,17 @@ function FicheLogement ()
 
     return (
         
-        <div>
-
-            <Carroussel />
+        <div className="container-fichelogement">
+            
+                <Carroussel />
+        
             <div className="title">
                 <h1>Cozy loft on the Canal Saint-Martin</h1>
                 <p>Paris, Île-de-France</p>
             </div>
 
             <span className="span-fichelogement">Alexandre Dumas</span>
-            <div className="host-picture" />
+            <div className="host-picture"/>
 
             <div className='content'>
                 <ul>
@@ -34,27 +35,27 @@ function FicheLogement ()
                     <li>Canal</li>
                     <li>Paris 10</li>
                 </ul>
-
-                <div className="rate">
+            </div>
+            
+            <div className="rate">
                     <img src={ iconStar2 } alt="star" className="star1" />
                     <img src={ iconStar2 } alt="star" className="star2" />
                     <img src={ iconStar2 } alt="star" className="star3" />
                     <img src={ iconStar1 } alt="star" className="star4" />
                     <img src={ iconStar1 } alt="star" className="star5" />
-                </div>
+            </div>
             
-                <div className="collapse-fichelogement">
-                    <div className='collapse-fichelogement-item'>
-                        <Collapsible />
-                    </div>
-                    <div className='collapse-fichelogement-item'>
-                        <Collapsible />
-                    </div>
+             <div className="collapse-fichelogement">
+                <div className='collapse-fichelogement-item'>
+                    <Collapsible />
                 </div>
-                <Footer />
-            </div>  
+                <div className='collapse-fichelogement-item'>
+                    <Collapsible />
+                </div>
+            </div>
 
-        </div>
+            <Footer />
+        </div>  
         
     )
 }

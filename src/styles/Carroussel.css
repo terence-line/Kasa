@@ -2,8 +2,8 @@
     position: absolute;
     width: 1240px;
     height: 415px;
-    left: 100px;
     top: 128px;
+    left: 100px;
 }
 
 .fa-chevron-left {
@@ -43,3 +43,25 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 991px) {
+    .carroussel {
+        max-width: 991px;
+        min-width: 768px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .carroussel {
+        max-width: 767.99px;
+        min-width: 320px;
+        left: 20px;
+    }
+
+    .pictures {
+        width: 100%; 
+    }
+
+}
+

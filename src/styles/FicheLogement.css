@@ -1,3 +1,8 @@
+.container-fichelogement {
+    max-width: 1440px;
+    min-width: 992px;
+}
+
 .title {
     position: absolute;
     width: 635px;
@@ -139,10 +144,11 @@
 
 .rate {
     position: relative;
+    display: flex;
     width: 196px;
     height: 36px;
-    left: 1093px;
-    top: -50px;
+    padding-left: 1180px;
+    top: 682px;
 }
 
 .btn {
@@ -208,6 +214,7 @@
 }
 
 .collapse-fichelogement {
+    position: relative;
     height: 52px;
     width: 1240px;
     border-radius: 10px;
@@ -218,6 +225,7 @@
     text-align: center;
     left: 100px;
     bottom: 50px;
+    top: 720px;
 }
 
 .collapse-fichelogement-item {
@@ -230,5 +238,28 @@
     
 }
 
+@media screen and (max-width: 991px) {
+    .container-fichelogement {
+        max-width: 991px;
+        min-width: 768px;
+    }
 
+}
+
+@media screen and (max-width: 767px) {
+    .container-fichelogement {
+        max-width: 767.99px;
+        min-width: 320px;
+    }
+
+    .title, .title h1, .title p {
+        left: 10px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 

@@ -10,14 +10,13 @@ function Carroussel ()
 
 
     return (
+
         <div className="carroussel">
-            <img src={ image } alt="decor intérieur" className="background" />
+            
+            <img src={ image } alt="decor intérieur" className="pictures" />
             <FontAwesomeIcon icon="fa-sharp fa-solid fa-chevron-right" />
             <FontAwesomeIcon icon="fa-sharp fa-solid fa-chevron-left" />
             <p>1/4</p>
-
-
-
 
         </div>
     )
