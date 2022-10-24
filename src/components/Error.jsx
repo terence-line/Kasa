@@ -1,7 +1,6 @@
 import React from "react"
 import logo from '../assets/404.svg'
 import { Link } from "react-router-dom"
-import Footer from './Footer'
 import '../styles/Error.css'
 
 
@@ -17,9 +16,7 @@ function Error ()
                     Retourner sur la page d’accueil
                 </Link>
             </div>
-                <div className="footer-error">
-                    <Footer />
-                </div>
+                
         </div>
         
 

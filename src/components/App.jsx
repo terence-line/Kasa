@@ -6,6 +6,8 @@ import Home from './Home'
 import Apropos from './Apropos'
 import FicheLogement from './FicheLogement'
 import Error from './Error'
+import Footer from './Footer'
+
 
 
 
@@ -26,8 +28,9 @@ function App ()
           <Route path="/fichelogement/:id" component={ FicheLogement } />
           <Route path="*" component={ Error } />
         </Switch>
+        <Footer />
       </Router>
-
+        
     </div>
   );
 }

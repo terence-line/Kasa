@@ -10,13 +10,6 @@
     background: #FFFFFF;
 }
 
-@media screen and (max-width: 991px) {
-    .container {
-        max-width: 991px;
-        min-width: 768px;
-    }
-
-}
 
 @media screen and (max-width: 767px) {
     .container {

@@ -1,4 +1,7 @@
-
+.root {
+  max-width: 1440px;
+  min-width: 992px;
+}
 
 body {
   margin: 0;
@@ -7,4 +10,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 767px) {
+  .root {
+    max-width: 767.99px;
+    min-width: 320px;
+  }
 }

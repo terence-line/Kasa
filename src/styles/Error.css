@@ -56,12 +56,6 @@
     color: #FF6060;
 }
 
-@media screen and (max-width: 991px) {
-    .body-error {
-        max-width: 991px;
-        min-width: 768px;
-    }
-}
 
 @media screen and (max-width : 767px) {
     .body-home {
@@ -84,6 +78,9 @@
         padding-left: 200px;
         padding-right: 200px;
         text-align: center;
+    }
+    .p {
+        top: 539px;
     }
 
 }
