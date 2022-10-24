@@ -50,7 +50,7 @@ a .image {
     opacity: 0.55;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .gallery {
         max-width: 767.99px;
         min-width: 320px;
