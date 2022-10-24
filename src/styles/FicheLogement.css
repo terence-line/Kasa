@@ -83,7 +83,7 @@
 
 .content {
     position: absolute;
-    width: 1240px;
+    width: 900px;
     height: 101px;
     left: 100px;
     top: 670px;
@@ -224,7 +224,7 @@
     align-items: center;
     text-align: center;
     left: 100px;
-    bottom: 50px;
+    margin-bottom: 200px;
     top: 720px;
 }
 
