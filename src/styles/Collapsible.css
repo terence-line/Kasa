@@ -24,10 +24,15 @@
     cursor: pointer;
 }
 
+
+.collapse_icon:active {
+    transform: rotate(180deg);
+    animation-fill-mode: collapse_icon 2s 0.5s forwards;
+}
+
 .collapse_content {
     background: #F6F6F6;
     height: auto;
-    opacity: 1;
     overflow: hidden;
     padding: 20px 10px;
     margin-bottom: 40px;
