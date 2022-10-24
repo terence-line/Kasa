@@ -5,6 +5,7 @@ import Carroussel from './Carroussel'
 import icon from '../assets/chevron.png'
 import iconStar1 from '../assets/star-grey.png'
 import iconStar2 from '../assets/star-red.svg'
+import Collapsible from './Collapsible'
 
 
 
@@ -18,6 +19,7 @@ function FicheLogement ()
 
 
     return (
+        
         <div>
 
             <Carroussel />
@@ -43,10 +45,20 @@ function FicheLogement ()
                     <img src={ iconStar1 } alt="star" className="star4" />
                     <img src={ iconStar1 } alt="star" className="star5" />
                 </div>
+            
+                <div className="collapse-fichelogement">
+                    <div className='collapse-fichelogement-item'>
+                        <Collapsible />
+                    </div>
+                    <div className='collapse-fichelogement-item'>
+                        <Collapsible />
+                    </div>
+                </div>
+                <Footer />
+            </div>  
 
-            </div>
-            <Footer />
         </div>
+        
     )
 }
 
