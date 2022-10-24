@@ -57,14 +57,6 @@
     top: 437px;
 }
 
-@media screen and (max-width: 991px) {
-    .body-home {
-        max-width: 991px;
-        min-width: 768px;
-    }
-
-}
-
 
 @media screen and (max-width: 767px) {
     .body-home {

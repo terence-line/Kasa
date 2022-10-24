@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import '../styles/FicheLogement.css'
-import Footer from './Footer'
 import Carroussel from './Carroussel'
 import iconStar1 from '../assets/star-grey.png'
 import iconStar2 from '../assets/star-red.svg'
@@ -58,7 +57,6 @@ function FicheLogement ()
                 </div>
             </div>
 
-            <Footer />
         </div>  
         
     )

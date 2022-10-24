@@ -234,13 +234,6 @@
     border-radius: 10px;   
 }
 
-@media screen and (max-width: 991px) {
-    .container-fichelogement {
-        max-width: 991px;
-        min-width: 768px;
-    }
-
-}
 
 @media screen and (max-width: 767px) {
     .container-fichelogement {
