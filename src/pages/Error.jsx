@@ -17,8 +17,7 @@ function Error ()
                 </Link>
             </div>
                 
-        </div>
-        
+        </div>    
 
     )
 }

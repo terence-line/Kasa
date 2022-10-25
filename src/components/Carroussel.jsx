@@ -8,7 +8,6 @@ import image from "../assets/background.svg"
 function Carroussel ()
 {
 
-
     return (
 
         <div className="carroussel">

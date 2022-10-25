@@ -67,7 +67,7 @@
     }
 
     .banner, .banner.masked, .masked .paysage1 {
-        width: 738px;
+        width: 728px;
         height: 161px;
         left: 20px;
         background: linear-gradient(to right, #000000 -186%, #f7f7f7 100%);
@@ -76,6 +76,7 @@
     .masked .paysage1 {
         object-fit: cover;
         left: 0px;
+        right: 10px;
     }
 
     .banner h1 {
