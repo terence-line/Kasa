@@ -6,6 +6,7 @@
 .error {
     top: 277px;
     width: 140px;
+    height: 273px;
     left: 440px;
     position: relative;
 }
@@ -14,7 +15,6 @@
     position: absolute;
     width: 597px;
     height: 263px;
-    left: 432px;
     display: flex;
     align-items: center;
     size: 288px;
@@ -65,8 +65,9 @@
 
     .error {
         width: 198px;
-        left: 100px;
+        left: 300px;
         top: 306px;
+        border: 2px solid black;
     }
 
     .error-logo {
@@ -75,12 +76,12 @@
     }
 
     .error h1 {
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-right: 400px;
         text-align: center;
     }
     .p {
         top: 539px;
+        left: -20px;   
     }
 
 }
