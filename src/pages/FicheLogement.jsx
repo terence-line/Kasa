@@ -1,32 +1,32 @@
 import React, { useState } from 'react'
 import '../styles/FicheLogement.css'
-import Carroussel from './Carroussel'
+import Carroussel from '../components/Carroussel'
 import iconStar1 from '../assets/star-grey.png'
 import iconStar2 from '../assets/star-red.svg'
-import Collapsible from './Collapsible'
-
-
-
-//import Logements from '../datas/logements.json'
+import Collapsible from '../components/Collapsible'
+import logements from '../datas/logements.json'
 
 
 function FicheLogement ()
 {
-    const [ open, setOpen ] = useState( true )
+    { logements.map( ( logements ) => (
+        <li key={ logements.id } > { logements.title }</li>
+    ) ) }
 
     return (
         
         <div className="container-fichelogement">
             
-                <Carroussel />
-        
+            <Carroussel />
+           
+            
             <div className="title">
-                <h1>Cozy loft on the Canal Saint-Martin</h1>
-                <p>Paris, Île-de-France</p>
+                <h1>{ logements.title }</h1>
+                <p>{ logements.location }</p>
             </div>
 
             <div className="host">
-                <span className="span-host">Alexandre Dumas</span>
+                <span className="span-host">{ logements.name}</span>
                 <div className='host-picture'>
                     <img src="" alt="photo de profil" />
                 </div>
@@ -34,13 +34,14 @@ function FicheLogement ()
 
             <div className='tags'>
                 <ul>
-                    <li>Cozy</li>
+                    <li>{logements.tags }</li>
                     <li>Canal</li>
                     <li>Paris 10</li>
                 </ul>
             </div>
             
             <div className="rate">
+                {logements.rating}
                     <img src={ iconStar2 } alt="star" className="star1" />
                     <img src={ iconStar2 } alt="star" className="star2" />
                     <img src={ iconStar2 } alt="star" className="star3" />

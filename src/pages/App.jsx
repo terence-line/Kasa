@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import '../styles/App.css';
-import Header from './Header'
-import Home from './Home'
-import Apropos from './Apropos'
-import FicheLogement from './FicheLogement'
-import Error from './Error'
-import Footer from './Footer'
+import Header from '../components/Header'
+import Home from '../pages/Home'
+import Apropos from '../pages/Apropos'
+import FicheLogement from '../pages/FicheLogement'
+import Error from '../pages/Error'
+import Footer from '../components/Footer'
 
 
 
