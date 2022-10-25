@@ -31,7 +31,7 @@
     animation-fill-mode: collapse_icon 2s 0.5s forwards;
 }
 
-.collapse_content {
+.collapse_tags {
     background: #F6F6F6;
     height: auto;
     overflow: hidden;
