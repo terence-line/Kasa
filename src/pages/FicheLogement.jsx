@@ -28,7 +28,7 @@ function FicheLogement ()
             <div className="host">
                 <span className="span-host">{ logements.name}</span>
                 <div className='host-picture'>
-                    <img src="" alt="photo de profil" />
+                    <img src={logements.picture} alt="photo de profil" />
                 </div>
             </div>
 

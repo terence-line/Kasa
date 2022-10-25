@@ -7,16 +7,17 @@ import '../styles/Card.css'
 
 function Card ()
 {
+   
 
     return (
 
         <div className="gallery">
 
-            {logements.map( logement => (
-
-                <a href="./fichelogement/:id" key={ logement.id }>
-                    <img src={ logement.cover } alt="photo logement" className="image" />
-                    <h3>{ logement.title }</h3>
+            { logements.map( logement => (
+                
+                <a href={`/logements/${logement.id}`} key={logement.id}>
+                    <img src={logement.cover} alt="photo logement" className="image" />
+                    <h3>{logement.title}</h3>
                 </a>
 
             ) ) }
@@ -29,3 +30,4 @@ function Card ()
 export default Card
 
 
+//<a href={`/logements ${ id }`} key={ logement.id }>
