@@ -78,7 +78,7 @@
     border-radius: 50%;
 }
 
-.content {
+.tags {
     position: absolute;
     width: 900px;
     height: 101px;
@@ -86,14 +86,14 @@
     top: 655px;
 }
 
-.content ul {
+.tags ul {
     display: flex;
     list-style: none;
     position: relative;
     left: -40px;
 }
 
-.content li {
+.tags li {
     background: #FF6060;
     border-radius: 10px;
     height: 30px;
@@ -245,23 +245,21 @@
         left: 10px;
     }
 
-    .content {
+    .tags {
         display: flex;
         flex-direction: column;
+        left: 20px;
     }
 
     .span-fichelogement {
         display: flex;
         flex-direction: column;
+       
     }
 
     .host {
         top: 750px;
         left: 530px;
-    }
-
-    .content {
-        left: 20px;
     }
 
     .rate {
