@@ -1,5 +1,5 @@
 import React from 'react'
-import Logements from '../datas/logements.json'
+import logements from '../datas/logements.json'
 //import { useState, useEffect } from "react"
 import '../styles/Card.css'
 
@@ -12,7 +12,7 @@ function Card ()
 
         <div className="gallery">
 
-            { Logements.map( logement => (
+            {logements.map( logement => (
 
                 <a href="./fichelogement/:id" key={ logement.id }>
                     <img src={ logement.cover } alt="photo logement" className="image" />
