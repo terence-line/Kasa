@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import '../styles/Collapsible.css'
 import icon from '../assets/chevron.png'
 
-function Collapsible ( { title, content } )
+function Collapsible ( { title, tags } )
 {
     const [ isOpen, setIsOpen ] = useState( false )
     
@@ -15,7 +15,7 @@ function Collapsible ( { title, content } )
             </div>
 
             { isOpen &&
-                <div className="collapse_content">{ content }</div>
+                <div className="collapse_tags">{ tags }</div>
             }
         </div>
     )
