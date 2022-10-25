@@ -32,7 +32,7 @@ function FicheLogement ()
                 </div>
             </div>
 
-            <div className='content'>
+            <div className='tags'>
                 <ul>
                     <li>Cozy</li>
                     <li>Canal</li>
