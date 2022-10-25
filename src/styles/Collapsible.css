@@ -25,7 +25,7 @@
 }
 
 
-.collapse_icon:active,
+.collapse_icon:hover,
 .open .collapse_icon {
     transform: rotate(180deg);
     animation-fill-mode: collapse_icon 2s 0.5s forwards;
