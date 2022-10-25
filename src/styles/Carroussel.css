@@ -1,21 +1,29 @@
 .carroussel {
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
     width: 1240px;
     height: 415px;
     top: 128px;
     left: 100px;
 }
 
-.fa-chevron-left {
+.precedent {
     height: 79.2px;
     width: 46.68px;
     position: absolute;
     background: #FFFFFF;
     left: 25.96px;
     top: 149.23px;
+    animation-name: slide;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-duration: 2s;
+    cursor: pointer;
 }
 
-.fa-chevron-right {
+.suivant {
     height: 79.2px;
     width: 46.68px;
     position: absolute;
