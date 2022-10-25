@@ -15,7 +15,7 @@ function Card ()
             { Logements.map( logement => (
 
                 <a href="./fichelogement/:id" key={ logement.id }>
-                    <img src={ logement.cover } alt="" className="image" />
+                    <img src={ logement.cover } alt="photo logement" className="image" />
                     <h3>{ logement.title }</h3>
                 </a>
 
