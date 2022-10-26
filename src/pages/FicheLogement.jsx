@@ -10,43 +10,45 @@ import logements from '../datas/logements.json'
 function FicheLogement ()
 {
   
-     const logement = document.location.pathname.split("/").pop();
+       const logement = document.location.pathname.split( "/" ).pop();
+       
 
      const logementInfos = logements.find((logement)=>{
 
             return logement.id === logement;
-            
+           
      });
-
+    
+            
        return (
         
-              <div className="container-fichelogement">
-            
+              <div className="container-fichelogement" key={logement.id}>
+              
                      <Carroussel />
            
             
                      <div className="title">
-                            <h1>{`$this.title`}</h1>
-                             <p>{logement.location}</p>
+                            <h1>{`${logement.title}`}</h1>
+                            <p>{`${logement.location}`}</p>
                      </div>
 
                      <div className="host">
                             <span className="span-host">{logement.name}</span>
                             <div className='host-picture'>
-                            <img src={logement.picture} alt="photo de profil" />
+                            <img src={`${logement.picture}`} alt="photo de profil" />
                      </div>
               </div>
 
               <div className='tags'>
                      <ul>
-                            <li>{logement.tags}</li>
+                            <li>{`${logement.tags}`}</li>
                             <li>Canal</li>
                             <li>Paris 10</li>
                      </ul>
               </div>
             
               <div className="rate">
-                     {logement.rating}
+                     
                             <img src={ iconStar2 } alt="star" className="star1" />
                             <img src={ iconStar2 } alt="star" className="star2" />
                             <img src={ iconStar2 } alt="star" className="star3" />
@@ -78,6 +80,7 @@ function FicheLogement ()
         
        )
 }
+console.log(logements)
 
 export default FicheLogement
 
