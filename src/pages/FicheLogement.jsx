@@ -6,7 +6,7 @@ import iconStar2 from '../assets/star-red.svg'
 import Dropdown from '../components/Dropdown'
 import logements from '../datas/logements.json'
 
-
+//<a href={`/logements ${ id }`} key={ logement.id }>
 function FicheLogement ()
 {
   

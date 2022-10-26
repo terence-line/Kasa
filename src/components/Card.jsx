@@ -29,4 +29,3 @@ function Card ()
 export default Card
 
 
-//<a href={`/logements ${ id }`} key={ logement.id }>

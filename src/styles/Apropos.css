@@ -32,11 +32,8 @@
     height: 29.84px;
     width: 89.5px;
     left: 226.08px;
-    top: 1070px;
+    top: 1095px;
     position: absolute;
-    left: 15.7%;
-    right: 78.09%;
-    bottom: 4.74%;
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -60,7 +57,7 @@
         min-width: 336px;
     }
     
-    
+
     .banner-apropos .paysage2 {
         max-width: 728px;
         height: 400px;
@@ -79,6 +76,7 @@
         min-width: 375px;
         left: 40px;
         margin-top: 60px;
+        top: 1300px;
     }
 
     
