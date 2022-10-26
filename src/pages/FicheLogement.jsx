@@ -10,11 +10,11 @@ import logements from '../datas/logements.json'
 function FicheLogement ()
 {
   
-     const logementId = document.location.pathname.split("/").pop();
+     const logement = document.location.pathname.split("/").pop();
 
      const logementInfos = logements.find((logement)=>{
 
-            return logement.id === logementId;
+            return logement.id === logement;
 
      });
 
@@ -28,27 +28,27 @@ function FicheLogement ()
            
             
                      <div className="title">
-                            <h1>{ logementId.title }</h1>
-                             <p>{ logementId.location }</p>
+                            <h1>{ logement.title }</h1>
+                             <p>{ logement.location }</p>
                      </div>
 
                      <div className="host">
-                            <span className="span-host">{ logementId.name}</span>
+                            <span className="span-host">{ logement.name}</span>
                             <div className='host-picture'>
-                            <img src={logementId.picture} alt="photo de profil" />
+                            <img src={logement.picture} alt="photo de profil" />
                      </div>
               </div>
 
               <div className='tags'>
                      <ul>
-                            <li>{logementId.tags }</li>
+                            <li>{logement.tags }</li>
                             <li>Canal</li>
                             <li>Paris 10</li>
                      </ul>
               </div>
             
               <div className="rate">
-                     {logementId.rating}
+                     {logement.rating}
                             <img src={ iconStar2 } alt="star" className="star1" />
                             <img src={ iconStar2 } alt="star" className="star2" />
                             <img src={ iconStar2 } alt="star" className="star3" />
