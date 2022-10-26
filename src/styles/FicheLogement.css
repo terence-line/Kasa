@@ -51,12 +51,10 @@
 .host {
     display: flex;
     justify-content: center;
-    align-items: center;
     position: relative;
     top: 570px;
-    left: 1120px;
-    width: 220px;
-    padding-left: 20px;
+    left: 1250px;
+    width: 90px;
     text-align: right;
 }
 
@@ -224,7 +222,7 @@
 @media screen and (max-width: 767px) {
     .container-fichelogement {
         max-width: 767.99px;
-        min-width: 375px;
+        min-width: 320px;
     }
 
     .title, .title h1, .title p {
@@ -244,7 +242,7 @@
 
     .host {
         top: 750px;
-        left: 530px;
+        left: 660px; 
     }
 
     .rate {
