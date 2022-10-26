@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import '../styles/Dropdown.css'
 import icon from '../assets/chevron.png'
 
-function Dropdown ( { title, tags } )
+function Dropdown ( props )
 {
     const [ isOpen, setIsOpen ] = useState( false )
     
@@ -11,11 +11,11 @@ function Dropdown ( { title, tags } )
 
         <div className={ "dropdown" + ( isOpen ? 'open' : '' ) }>
             <div className="dropdown_title" >
-                { title } <img src={ icon } alt="chevron" className="dropdown_icon" onClick={ () => setIsOpen(!isOpen )} />
+                { props.title } <img src={ icon } alt="chevron" className="dropdown_icon" onClick={ () => setIsOpen(!isOpen )} />
             </div>
 
             { isOpen &&
-                <div className="dropdown_tags">{ tags }</div>
+                <div className="dropdown_text">{props.text}</div>
             }
         </div>
     )
