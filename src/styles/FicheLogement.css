@@ -181,7 +181,6 @@
 
 .dropdown-fichelogement {
     position: relative;
-    height: 52px;
     width: 1240px;
     border-radius: 10px;
     display: flex;
@@ -218,16 +217,14 @@
     text-align: left;
     margin-left: -35px;
     margin-top: 0px;
-    margin-bottom: 0px;
-    
-    
+    margin-bottom: 0px;   
 }
 
 
 @media screen and (max-width: 767px) {
     .container-fichelogement {
         max-width: 767.99px;
-        min-width: 320px;
+        min-width: 375px;
     }
 
     .title, .title h1, .title p {
@@ -242,8 +239,7 @@
 
     .span-fichelogement {
         display: flex;
-        flex-direction: column;
-       
+        flex-direction: column;  
     }
 
     .host {
@@ -257,20 +253,17 @@
     }
 
     .dropdown-fichelogement {
+        display: block;
         flex-direction: column;
         top: 770px;
-        left: -230px;
-    }
-
-    .dropdown-fichelogement-item1 {
-        margin-top: 25px;  
         width: 740px;
+        left: 20px;  
     }
 
-    .dropdown-fichelogement-item2 {
-        margin-top: 25px;  
+    .dropdown-fichelogement-item1, .dropdown-fichelogement-item2 {  
         width: 740px;
+        height: auto;
+        padding-left: -20px;
     }
-
 }
 
