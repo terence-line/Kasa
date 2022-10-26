@@ -21,7 +21,7 @@
     opacity: 0.6;
 }
 
-.container_collapse {
+.container_dropdown {
     position: relative;
     width: 1023px;
     top: 416px;
@@ -67,7 +67,7 @@
         min-width: 335px;   
     }
     
-    .container_collapse {
+    .container_dropdown {
         max-width: 728px;
         min-width: 375px;
         left: 20px;

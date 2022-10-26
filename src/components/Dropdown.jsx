@@ -9,13 +9,13 @@ function Dropdown ( { title, tags } )
 
     return (
 
-        <div className={ "collapse" + ( isOpen ? 'open' : '' ) }>
-            <div className="collapse_title" >
-                { title } <img src={ icon } alt="chevron" className="collapse_icon" onClick={ () => setIsOpen(!isOpen )} />
+        <div className={ "dropdown" + ( isOpen ? 'open' : '' ) }>
+            <div className="dropdown_title" >
+                { title } <img src={ icon } alt="chevron" className="dropdown_icon" onClick={ () => setIsOpen(!isOpen )} />
             </div>
 
             { isOpen &&
-                <div className="collapse_tags">{ tags }</div>
+                <div className="dropdown_tags">{ tags }</div>
             }
         </div>
     )

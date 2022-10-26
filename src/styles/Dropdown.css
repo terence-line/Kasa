@@ -1,8 +1,8 @@
-.collapse {
+.dropdown {
     margin-bottom: 40px;
 }
 
-.collapse_title {
+.dropdown_title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,19 +19,19 @@
     
 }
 
-.collapse_icon {
+.dropdown_icon {
     height: 20px;
     cursor: pointer;
 }
 
 
-.collapse_icon:hover,
-.open .collapse_icon {
+.dropdown_icon:hover,
+.open .dropdown_icon {
     transform: rotate(180deg);
     animation-fill-mode: collapse_icon 2s 0.5s forwards;
 }
 
-.collapse_tags {
+.dropdown_tags {
     background: #F6F6F6;
     height: auto;
     overflow: hidden;

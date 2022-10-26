@@ -14,7 +14,7 @@ function Apropos ()
                 <img src={ image } alt="paysage montagne" className="paysage2" />
             </div>
 
-            <div className="container_collapse">
+            <div className="container_dropdown">
                 <Dropdown title="Fiabilité" tags="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes." />
                 <Dropdown title="Respect" tags="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme." />
                 <Dropdown title="Service" tags="Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question." />
