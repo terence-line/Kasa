@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import '../styles/Collapsible.css'
+import '../styles/Dropdown.css'
 import icon from '../assets/chevron.png'
 
-function Collapsible ( { title, tags } )
+function Dropdown ( { title, tags } )
 {
     const [ isOpen, setIsOpen ] = useState( false )
     
@@ -21,5 +21,5 @@ function Collapsible ( { title, tags } )
     )
 }
 
-export default Collapsible
+export default Dropdown
 

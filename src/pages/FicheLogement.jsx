@@ -3,7 +3,7 @@ import '../styles/FicheLogement.css'
 import Carroussel from '../components/Carroussel'
 import iconStar1 from '../assets/star-grey.png'
 import iconStar2 from '../assets/star-red.svg'
-import Collapsible from '../components/Collapsible'
+import Dropdown from '../components/Dropdown'
 import logements from '../datas/logements.json'
 
 
@@ -56,12 +56,12 @@ function FicheLogement ()
                             <img src={ iconStar1 } alt="star" className="star5" />
               </div>
             
-              <div className="collapse-fichelogement">
-                     <div className='collapse-fichelogement-item'>
-                            <Collapsible />
+              <div className="dropdown-fichelogement">
+                     <div className='dropdown-fichelogement-item'>
+                            <Dropdown />
                       </div>
-                     <div className='collapse-fichelogement-item'>
-                             <Collapsible />
+                     <div className='dropdown-fichelogement-item'>
+                             <Dropdown />
                      </div>
                </div>
 
