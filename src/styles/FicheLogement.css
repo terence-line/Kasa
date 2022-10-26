@@ -171,43 +171,12 @@
 
 .container-text1,
 .container-text2 {
-    height: 249px;
+    height: auto;
     width: 582px;
     top: 52px;
     border-radius: 10px;
     position: absolute;
     background: #F7F7F7;
-}
-
-.text1 {
-    height: 156px;
-    width: 550px;
-    left: 20px;
-    top: -20px;
-    left: 3.44%;
-    right: 2.06%;
-    text-align: left;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 142.6%;
-    color: #FF6060;
-}
-
-.text2 {
-    height: 182px;
-    width: 550px;
-    left: 20px;
-    top: 22px;
-    position: absolute;
-    left: 3.44%;
-    right: 2.06%;
-    bottom: -407.69%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 142.6%;
-    color: #FF6060;
 }
 
 .dropdown-fichelogement {
@@ -225,13 +194,33 @@
     top: 650px;
 }
 
-.dropdown-fichelogement-item {
+.dropdown-fichelogement-item1 {
     display: block;
     justify-content: space-between;
     height: 52px;
     width: 582px;
     margin-top: -20px;
-    border-radius: 10px;   
+    border-radius: 10px;
+    text-align: left;  
+}
+
+.dropdown-fichelogement-item2 {
+    display: block;
+    justify-content: space-between;
+    height: 52px;
+    width: 582px;
+    margin-top: -20px;
+    border-radius: 10px; 
+}
+
+.dropdown-fichelogement-item2 ul  {
+    list-style-type: none;
+    text-align: left;
+    margin-left: -35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    
 }
 
 
@@ -273,7 +262,12 @@
         left: -230px;
     }
 
-    .dropdown-fichelogement-item {
+    .dropdown-fichelogement-item1 {
+        margin-top: 25px;  
+        width: 740px;
+    }
+
+    .dropdown-fichelogement-item2 {
         margin-top: 25px;  
         width: 740px;
     }

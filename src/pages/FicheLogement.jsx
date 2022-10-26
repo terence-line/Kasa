@@ -15,10 +15,8 @@ function FicheLogement ()
      const logementInfos = logements.find((logement)=>{
 
             return logement.id === logement;
-
+            
      });
-
-
 
        return (
         
@@ -28,12 +26,12 @@ function FicheLogement ()
            
             
                      <div className="title">
-                            <h1>{ logement.title }</h1>
-                             <p>{ logement.location }</p>
+                            <h1>{`$this.title`}</h1>
+                             <p>{logement.location}</p>
                      </div>
 
                      <div className="host">
-                            <span className="span-host">{ logement.name}</span>
+                            <span className="span-host">{logement.name}</span>
                             <div className='host-picture'>
                             <img src={logement.picture} alt="photo de profil" />
                      </div>
@@ -41,7 +39,7 @@ function FicheLogement ()
 
               <div className='tags'>
                      <ul>
-                            <li>{logement.tags }</li>
+                            <li>{logement.tags}</li>
                             <li>Canal</li>
                             <li>Paris 10</li>
                      </ul>
@@ -57,11 +55,21 @@ function FicheLogement ()
               </div>
             
               <div className="dropdown-fichelogement">
-                     <div className='dropdown-fichelogement-item'>
+                     <div className='dropdown-fichelogement-item1'>
                             <Dropdown title="Description" text="Vous serez à 50m du canal Saint-martin où vous pourrez pique-niquer l'été et à côté de nombreux bars et restaurants. Au cœur de Paris avec 5 lignes de métro et de nombreux bus. Logement parfait pour les voyageurs en solo et les voyageurs d'affaires. Vous êtes à1 station de la gare de l'est (7 minutes à pied)." />
                      </div>
-                     <div className='dropdown-fichelogement-item'>
-                             <Dropdown title="Equipements" text="Climatisation Wi-Fi Cuisine Espace de travail Fer à repasser Sèche-cheveux  Cintres" />
+                     <div className='dropdown-fichelogement-item2'>
+                            <Dropdown title="Equipements" 
+                                      text= <ul className="details-item2">
+                                                <li>Climatisation</li>
+                                                <li>Wi-Fi</li>
+                                                <li>Cuisine</li>
+                                                <li>Espace de travail</li>
+                                                <li>Fer à repasser </li>
+                                                <li>Sèche-cheveux</li> 
+                                                <li>Cintres</li>
+                                            </ul>
+                            />
                      </div>
                </div>
 
