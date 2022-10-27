@@ -19,16 +19,17 @@
     
 }
 
+
+
+
+
 .dropdown_icon {
-    height: 20px;
-    cursor: pointer;
-}
-
-
-.dropdown_icon:hover,
-.open .dropdown_icon {
     transform: rotate(180deg);
-    animation-fill-mode: collapse_icon 2s 0.5s forwards;
+    cursor: pointer;
+} 
+
+.up {
+    transform: rotate(0deg);
 }
 
 .dropdown_text {

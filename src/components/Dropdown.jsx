@@ -11,7 +11,7 @@ function Dropdown ( props )
 
         <div className={ "dropdown" + ( isOpen ? 'open' : '' ) }>
             <div className="dropdown_title" >
-                { props.title } <img src={ icon } alt="chevron" className="dropdown_icon" onClick={ () => setIsOpen(!isOpen )} />
+                { props.title } <img src={ icon } alt="chevron" className={isOpen ? 'dropdown_icon' : 'up' } onClick={ () => setIsOpen(!isOpen )} />
             </div>
 
             { isOpen &&

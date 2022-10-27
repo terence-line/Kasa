@@ -1,55 +1,54 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../styles/FicheLogement.css'
 import Carroussel from '../components/Carroussel'
 import iconStar1 from '../assets/star-grey.png'
 import iconStar2 from '../assets/star-red.svg'
 import Dropdown from '../components/Dropdown'
 import logements from '../datas/logements.json'
+import { useParams } from 'react-router-dom'
 
 
-//<a href={`/logements ${ id }`} key={ logement.id }>
+
 function FicheLogement ()
 {
-  
-       const logement = document.location.pathname.split( "/" ).pop();
+//        const logement = document.location.pathname.split( "/" ).pop();
        
+//      const logementInfos = logements.find((logement)=>{
 
-     const logementInfos = logements.find((logement)=>{
-
-            return logement.id === logement;
+//             return logement.id === logement;
            
-     });
-    
-            
+//      });
+      
+       const params = useParams()
+       const logement = logements.find(l => l.id === params.id)
+       
        return (
         
-              <div className="container-fichelogement" key={`${logement.id}`}>
+              <div className="container-fichelogement" key={logement.id}>
               
                      <Carroussel />
            
-            
                      <div className="title">
-                            <h1>{`${logement.title}`}</h1>
-                            <p>{`${logement.location}`}</p>
+                            <h1>{ logement.title }</h1>
+                            <p>{logement.location}</p>
                      </div>
 
                      <div className="host">
-                            <span className="span-host">{`${logement.name}`}</span>
-                            <div className='host-picture'>
-                                   <img src={`${logement.picture}`} alt="photo de profil" />
-                     </div>
+                            <span className="span-host">{logement.name}</span>
+                            
+                                   <img src={logement.picture} alt="" />
               </div>
 
               <div className='tags'>
                      <ul>
-                                   <li>{`${logement.tags}`}</li>
+                            <li>{logement.tags}</li>
                             <li>Canal</li>
                             <li>Paris 10</li>
                      </ul>
               </div>
             
               <div className="rate">
-                     
+              <li>{logement.rating}</li>
                             <img src={ iconStar2 } alt="star" className="star1" />
                             <img src={ iconStar2 } alt="star" className="star2" />
                             <img src={ iconStar2 } alt="star" className="star3" />
@@ -81,7 +80,7 @@ function FicheLogement ()
         
        )
 }
-//console.log(logements)
+console.log(logements)
 
 export default FicheLogement
 
