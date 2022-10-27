@@ -49,14 +49,12 @@
 }
 
 .host {
-    position: absolute;
+    width: 200px;
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 570px;
-    left: 1200px;
-    bottom: 100px;
-    width: 90px;
+
+    
+    
     text-align: right;
 }
 
@@ -79,34 +77,6 @@
     border-radius: 50%;
 }
 
-.tags {
-    position: absolute;
-    width: 900px;
-    height: 101px;
-    left: 100px;
-    top: 655px;
-}
-
-.tags ul {
-    display: flex;
-    list-style: none;
-    position: relative;
-    left: -40px;
-}
-
-.tags li {
-    background: #FF6060;
-    border-radius: 10px;
-    height: 30px;
-    width: 115px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    color: #FFFFFF;
-    text-align: center;
-    margin-right: 10px;
-    padding-top: 5px;
-}
 
 .description {
     height: 52px;
@@ -140,14 +110,6 @@
     top: -5px;
 }
 
-.rating {
-    position: relative;
-    display: flex;
-    width: 196px;
-    height: 30px;
-    padding-left: 1180px;
-    top: 600px;
-}
 
 .btn {
     height: 32px;

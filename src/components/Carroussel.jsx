@@ -10,9 +10,7 @@ function Carroussel ()
 {
 
 
-    return (
-    
-        <div className="carroussel">
+    <div className="carroussel">
             
             {logements.map((logement) => (
                 <li key={logement.id}>
@@ -24,10 +22,12 @@ function Carroussel ()
                
         ) ) }
                      
-        </div>                                         
-    )
+        </div>       
+                              
+    
 }
 export default Carroussel
 
 
 
+  

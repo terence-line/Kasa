@@ -5,50 +5,47 @@ import Dropdown from '../components/Dropdown'
 import logements from '../datas/logements.json'
 import { useParams } from 'react-router-dom'
 import Star from '../components/Star'
-
+import Tags from '../components/Tags'
 
 
 function FicheLogement ()
 {
-//        const logement = document.location.pathname.split( "/" ).pop();
+       //        const logement = document.location.pathname.split( "/" ).pop();
        
-//      const logementInfos = logements.find((logement)=>{
+       //      const logementInfos = logements.find((logement)=>{
 
-//             return logement.id === logement;
+       //             return logement.id === logement;
            
-//      });
+       //      });
       
        const params = useParams()
-       const logement = logements.find(l => l.id === params.id)
+       const logement = logements.find( l => l.id === params.id )
        
        return (
         
-              <div className="container-fichelogement" key={logement.id}>
+              <div className="container-fichelogement" key={ logement.id }>
               
                      <Carroussel />
            
                      <div className="title">
                             <h1>{ logement.title }</h1>
-                            <p>{logement.location}</p>
+                            <p>{ logement.location }</p>
                      </div>
 
                      <div className="host">
-                            <span className="span-host">{logement.name}</span>
+                            <span className="span-host">{ logement.host.name }</span>
                             
-                                   <img src={logement.picture} alt="" />
-              </div>
+                            <img src={ logement.host.picture } alt="" />
+                            <Star value={ parseInt( logement.rating ) } />
+                     </div>
 
-              <div className='tags'>
-                     <ul>
-                            <li>{logement.tags}</li>
-                            <li>Canal</li>
-                            <li>Paris 10</li>
-                     </ul>
-              </div>
+
+                     <Tags tags={logement.tags} />
+              
             
-                     <div className="rating">
-                            <Star value={parseInt(logement.rating)} />
-              </div>
+              
+                           
+              
             
               <div className="dropdown-fichelogement">
                      <div className='dropdown-fichelogement-item1'>
@@ -69,12 +66,11 @@ function FicheLogement ()
                             />
                      </div>
                </div>
-
-       </div>  
+</div>  
         
        )
 }
-console.log(logements)
+
 
 export default FicheLogement
 
