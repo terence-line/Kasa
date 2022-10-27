@@ -15,7 +15,10 @@ function Carroussel ()
             
             {logements.map((logement) => (
                 <li key={logement.id}>
-                    <img src={`${ logement.pictures}`} alt="photo logement" className="image" />
+                    <img src={ `${ logement.pictures }` } alt="photo logement" className="image" />
+                    <FontAwesomeIcon icon="fa-sharp fa-solid fa-chevron-right" />
+                    <FontAwesomeIcon icon="fa-sharp fa-solid fa-chevron-left" />
+                    <p>1/4</p>
                 </li>  
                
         ) ) }
@@ -27,9 +30,3 @@ export default Carroussel
 
 
 
-/*<FontAwesomeIcon icon="fa-sharp fa-solid fa-chevron-right" />
-<FontAwesomeIcon icon="fa-sharp fa-solid fa-chevron-left" />
-<p>1/4</p>
-
-
-<img src={ image } alt="decor intérieur" className="pictures" />*/

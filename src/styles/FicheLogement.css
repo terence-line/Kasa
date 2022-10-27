@@ -49,11 +49,13 @@
 }
 
 .host {
+    position: absolute;
     display: flex;
     justify-content: center;
     position: relative;
     top: 570px;
-    left: 1250px;
+    left: 1200px;
+    bottom: 100px;
     width: 90px;
     text-align: right;
 }
@@ -68,9 +70,10 @@
 }
 
 .host-picture {
+    position: absolute;
     width: 64px;
     height: 64px;
-    margin-left: 20px;
+    margin-left: 40px;
     background: #C4C4C4;
     border: 2px solid #C4C4C4;
     border-radius: 50%;
@@ -187,8 +190,8 @@
     align-items: center;
     text-align: center;
     left: 100px;
-    margin-bottom: 200px;
-    top: 650px;
+    margin-bottom: 250px;
+    top: 700px;
 }
 
 .dropdown-fichelogement-item1 {

@@ -27,13 +27,13 @@ function FicheLogement ()
                      <Carroussel />
            
             
-                     <div className="title" key={logement.id }>
+                     <div className="title" key={logement.id}>
                             <h1>{`${logement.location}`}</h1>
                             <p>{`${logement.location}`}</p>
                      </div>
 
                      <div className="host">
-                            <span className="span-host">{logement.name}</span>
+                            <span className="span-host">{ `${logement.name}`}</span>
                             <div className='host-picture'>
                             <img src={`${logement.picture}`} alt="photo de profil" />
                      </div>
