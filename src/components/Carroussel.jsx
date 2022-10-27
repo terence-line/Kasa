@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import image from "../assets/background.svg"
 
 
+
 function Carroussel ()
 {
 
@@ -16,8 +17,8 @@ function Carroussel ()
             {logements.map((logement) => (
                 <li key={logement.id}>
                     <img src={ `${ logement.pictures }` } alt="photo logement" className="image" />
-                    <FontAwesomeIcon icon="fa-sharp fa-solid fa-chevron-right" />
-                    <FontAwesomeIcon icon="fa-sharp fa-solid fa-chevron-left" />
+                    <FontAwesomeIcon icon1="fa-sharp fa-solid fa-chevron-right" />
+                    <FontAwesomeIcon icon2="fa-sharp fa-solid fa-chevron-left" />
                     <p>1/4</p>
                 </li>  
                
