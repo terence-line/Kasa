@@ -11,38 +11,38 @@ import logements from '../datas/logements.json'
 function FicheLogement ()
 {
   
-       const logement = document.location.pathname.split( "/" ).pop();
+       const logementId = document.location.pathname.split( "/" ).pop();
        
 
-     const logementInfos = logements.find((logement)=>{
+       const logementInfos = logements.find((logement)=>{
 
-            return logement.id === logement;
-           
-     });
-    
+              return logement.id === logementId;
+              
+       });
+
             
        return (
         
-              <div className="container-fichelogement" key={`${logement.id}`}>
+              <div className="container-fichelogement" key={`${logementInfos.id}`}>
               
                      <Carroussel />
            
             
                      <div className="title">
-                            <h1>{`${logement.title}`}</h1>
-                            <p>{`${logement.location}`}</p>
+                            <h1>{`${logementInfos.title}`}</h1>
+                            <p>{`${logementInfos.location}`}</p>
                      </div>
 
                      <div className="host">
-                            <span className="span-host">{`${logement.name}`}</span>
+                            <span className="span-host">{`${logementInfos.name}`}</span>
                             <div className='host-picture'>
-                                   <img src={`${logement.picture}`} alt="photo de profil" />
+                                   <img src={`${logementInfos.host.picture}`} alt="photo de profil" />
                      </div>
               </div>
 
               <div className='tags'>
                      <ul>
-                                   <li>{`${logement.tags}`}</li>
+                                   <li>{`${logementInfos.tags}`}</li>
                             <li>Canal</li>
                             <li>Paris 10</li>
                      </ul>
@@ -81,7 +81,7 @@ function FicheLogement ()
         
        )
 }
-//console.log(logements)
+
 
 export default FicheLogement
 
