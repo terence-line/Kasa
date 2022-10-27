@@ -22,13 +22,13 @@ function FicheLogement ()
             
        return (
         
-              <div className="container-fichelogement" key={logement.id}>
+              <div className="container-fichelogement">
               
                      <Carroussel />
            
             
-                     <div className="title">
-                            <h1>{`${logement.title}`}</h1>
+                     <div className="title" key={logement.id }>
+                            <h1>{`${logement.location}`}</h1>
                             <p>{`${logement.location}`}</p>
                      </div>
 
@@ -80,7 +80,7 @@ function FicheLogement ()
         
        )
 }
-console.log(logements)
+//console.log(logements)
 
 export default FicheLogement
 

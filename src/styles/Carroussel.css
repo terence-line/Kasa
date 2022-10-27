@@ -9,6 +9,10 @@
     left: 100px;
 }
 
+.carroussel li {
+    position: absolute;
+}
+
 .precedent {
     height: 79.2px;
     width: 46.68px;
