@@ -1,11 +1,10 @@
 import React from 'react'
 import '../styles/FicheLogement.css'
 import Carroussel from '../components/Carroussel'
-import iconStar1 from '../assets/star-grey.png'
-import iconStar2 from '../assets/star-red.svg'
 import Dropdown from '../components/Dropdown'
 import logements from '../datas/logements.json'
 import { useParams } from 'react-router-dom'
+import Star from '../components/Star'
 
 
 
@@ -47,13 +46,8 @@ function FicheLogement ()
                      </ul>
               </div>
             
-              <div className="rate">
-              <li>{logement.rating}</li>
-                            <img src={ iconStar2 } alt="star" className="star1" />
-                            <img src={ iconStar2 } alt="star" className="star2" />
-                            <img src={ iconStar2 } alt="star" className="star3" />
-                            <img src={ iconStar1 } alt="star" className="star4" />
-                            <img src={ iconStar1 } alt="star" className="star5" />
+                     <div className="rating">
+                            <Star value={parseInt(logement.rating)} />
               </div>
             
               <div className="dropdown-fichelogement">
