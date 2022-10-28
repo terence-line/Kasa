@@ -59,21 +59,6 @@
     text-align: right;
 }
 
-.description {
-    height: 52px;
-    width: 400px;
-    border-radius: 10px;
-    position: absolute;
-    background: #FF6060;
-}
-
-.equipements {
-    height: 52px;
-    width: 400px;
-    border-radius: 10px;
-    background: #FF6060;
-    margin-left: 651px;
-}
 
 .description h3,
 .equipements h3 {
@@ -89,18 +74,6 @@
     top: -5px;
 }
 
-.btn {
-    height: 32px;
-    width: 32px;
-    left: 32px;
-    position: absolute;
-    left: 93%;
-    top: 20%;
-    opacity: 0.87;
-    background: #FF6060;
-    border: none;
-}
-
 .chevron2,
 .chevron3 {
     position: relative;
@@ -113,25 +86,38 @@
     position: relative;
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
     left: 80px;
+    text-align: left;
     margin-bottom: 250px;
-    top: 700px;
+    top: 720px;
     margin-right: 150px;
     width: 1200px;
-    height: 47px;
-    border: 2px solid black;
+    height: auto;
+    list-style: none;
+}
+
+.dropdown_title {
+    top: 50px;
 }
 
 .dropdown-fichelogement-item1, 
 .dropdown-fichelogement-item2 {
-    width: 560px;
-    top: 730px
+    width: 560px;  
 }
+
+/*.dropdown-fichelogement-item1 {
+    height: 290px;
+    background: #F6F6F6;
+    border-radius: 10px;
+}*/
+
+.dropdown-fichelogement-item2 ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+
 
 
 
