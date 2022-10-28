@@ -3,11 +3,21 @@
     min-width: 992px;
 }
 
+.container-slideshow {
+    position: absolute;
+    border: 2px solid black;
+    width: 1180px;
+    height: 480px;
+    top: 120px;
+    left: 80px;
+    border-radius: 25px;
+}
+
 .title {
     position: absolute;
     width: 900px;
     left: 80px;
-    top: 700px;
+    top: 630px;
 }
 
 .title h1 {
