@@ -67,18 +67,8 @@ function FicheLogement ()
               <div className='tags'>
                      <ul>
                             <li>{`${logement.tags}`}</li>
-                            <li>Canal</li>
-                            <li>Paris 10</li>
+                           
                      </ul>
-              </div>
-            
-              <div className="rate">
-                     
-                            <img src={ iconStar2 } alt="star" className="star1" />
-                            <img src={ iconStar2 } alt="star" className="star2" />
-                            <img src={ iconStar2 } alt="star" className="star3" />
-                            <img src={ iconStar1 } alt="star" className="star4" />
-                            <img src={ iconStar1 } alt="star" className="star5" />
               </div>
             
               <div className="dropdown-fichelogement">

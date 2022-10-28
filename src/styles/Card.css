@@ -2,22 +2,21 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    width: 1240px;
+    width: 1200px;
     height: 2790px;
-    left: 100px;
+    left: 80px;
     top: 437px;
     padding-bottom: 43px;
     padding-top: 56px;
     background: #F7F7F7;
-    border-radius: 25px;
-    
+    border-radius: 25px;   
 }
 
 .gallery a {
     height: 340px;
     width: 340px;
     border-radius: 10px;
-    margin-left: 55px;
+    margin-left: 44px;
     margin-bottom: 50px;
     cursor: pointer;
     text-decoration-line: none;

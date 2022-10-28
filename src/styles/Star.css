@@ -1,7 +1,11 @@
-
+.rating {
+    position: absolute;
+    width:160px;
+    top: 170px;
+    left: 65px;
+    border: 2px solid black;
+}
 .rating svg {
     width: 30px;
     height: 30px;
-    
-
 }

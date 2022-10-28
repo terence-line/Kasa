@@ -5,82 +5,63 @@
 
 .title {
     position: absolute;
-    width: 635px;
-    height: 77px;
-    left: 100px;
-    top: 503px;
+    width: 335px;
+    left: 80px;
+    top: 700px;
 }
 
 .title h1 {
-    height: 51px;
-    width: 635px;
-    left: 100px;
-    top: 503px;
-    position: absolute;
-    left: 6.94%;
-    right: 48.96%;
-    top: 55.96%;
-    bottom: 39.06%;
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    line-height: 142.6%;
     display: flex;
     align-items: flex-end;
     color: #FF6060;
+    line-height: 5px;
 }
 
 .title p {
-    height: 26px;
-    width: 176px;
-    left: 100px;
-    top: 100px;
-    position: absolute;
-    left: 6.94%;
-    right: 80.83%;
-    bottom: 36.52%;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 142.6%;
     display: flex;
     align-items: flex-end;
     color: #FF6060;
 }
 
 .host {
-    width: 200px;
+    position: relative;
+    width: 230px;
+    top: 620px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    left: 1000px;
     display: flex;
     justify-content: center;
-
-    
-    
-    text-align: right;
-}
-
-.span-fichelogement {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 142.6%;
-    color: #FF6060;
-    text-align: center;
+    text-align: right;   
 }
 
 .host-picture {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    margin-left: 40px;
-    background: #C4C4C4;
-    border: 2px solid #C4C4C4;
-    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #F7F7F7;
 }
 
+.host img {
+    border-radius: 50%;    
+}
+
+.span-host {
+    padding-top: 40px;
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+    text-align: right;
+}
 
 .description {
     height: 52px;
-    width: 582px;
+    width: 400px;
     border-radius: 10px;
     position: absolute;
     background: #FF6060;
@@ -88,9 +69,8 @@
 
 .equipements {
     height: 52px;
-    width: 582px;
+    width: 400px;
     border-radius: 10px;
-    position: absolute;
     background: #FF6060;
     margin-left: 651px;
 }
@@ -101,7 +81,6 @@
     height: 26px;
     width: 106px;
     left: 20px;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     display: flex;
@@ -109,7 +88,6 @@
     color: #FFFFFF;
     top: -5px;
 }
-
 
 .btn {
     height: 32px;
@@ -121,7 +99,6 @@
     opacity: 0.87;
     background: #FF6060;
     border: none;
-
 }
 
 .chevron2,
@@ -132,56 +109,32 @@
     cursor: pointer;
 }
 
-.container-text1,
-.container-text2 {
-    height: auto;
-    width: 582px;
-    top: 52px;
-    border-radius: 10px;
-    position: absolute;
-    background: #F7F7F7;
-}
-
 .dropdown-fichelogement {
     position: relative;
-    width: 1240px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    left: 100px;
+    left: 80px;
     margin-bottom: 250px;
     top: 700px;
+    margin-right: 150px;
+    width: 1200px;
+    height: 47px;
+    border: 2px solid black;
 }
 
-.dropdown-fichelogement-item1 {
-    display: block;
-    justify-content: space-between;
-    height: 52px;
-    width: 582px;
-    margin-top: -20px;
-    border-radius: 10px;
-    text-align: left;  
-}
-
+.dropdown-fichelogement-item1, 
 .dropdown-fichelogement-item2 {
-    display: block;
-    justify-content: space-between;
-    height: 52px;
-    width: 582px;
-    margin-top: -20px;
-    border-radius: 10px; 
+    width: 560px;
+    top: 730px
 }
 
-.dropdown-fichelogement-item2 ul  {
-    list-style-type: none;
-    text-align: left;
-    margin-left: -35px;
-    margin-top: 0px;
-    margin-bottom: 0px;   
-}
+
+
 
 
 @media screen and (max-width: 767px) {
@@ -194,11 +147,7 @@
         left: 10px;
     }
 
-    .tags {
-        display: flex;
-        flex-direction: column;
-        left: 20px;
-    }
+   
 
     .span-fichelogement {
         display: flex;
@@ -210,10 +159,7 @@
         left: 660px; 
     }
 
-    .rate {
-        left: -1155px;
-        top: 710px;
-    }
+    
 
     .dropdown-fichelogement {
         display: block;

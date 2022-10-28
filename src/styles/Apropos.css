@@ -1,14 +1,13 @@
 .body-apropos {
     max-width: 1440px;
     min-width: 992px;
-    height: auto;
 }
 
 .banner-apropos {
     position: absolute;
-    width: 1240px;
+    width: 1200px;
     height: 223px;
-    left: 100px;
+    left: 80px;
     top: 152px;
     background: linear-gradient(to top, #000000 0%, #f6f6f6 100%);
     border-radius: 25px;
@@ -19,13 +18,14 @@
     border-radius: 25px;
     background: #F7F7F7;
     opacity: 0.6;
+    width: 1200px;
 }
 
 .container_dropdown {
     position: relative;
     width: 1023px;
     top: 416px;
-    left: 208px;
+    left: 160px;
 }
 
 .span-apropos {

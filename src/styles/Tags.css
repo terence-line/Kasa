@@ -1,17 +1,19 @@
 .tags {
     display: flex;
+    position:absolute;
     gap: 10px;
-
+    top: 780px;
+    left: 40px;
 }
 
 .tags-text {
     background-color: #FF6060;
     height: 25px;
-    padding: 0 10px;
+    padding: 1px 20px 10px 20px;
     border-radius: 10px;
     color: white;
     font-size: 14px;
     text-align: center;
     list-style: none;
-
+    font-weight: 500;
 }
