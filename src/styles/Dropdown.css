@@ -15,10 +15,8 @@
     border-radius: 5px;
     height: 47px;
     padding-left: 20px;
-    padding-right: 30px;
-    
+    padding-right: 30px;   
 }
-
 
 .dropdown_icon {
     transform: rotate(180deg);

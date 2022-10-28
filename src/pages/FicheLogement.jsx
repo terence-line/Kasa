@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/FicheLogement.css'
-import Carroussel from '../components/Slideshow'
+import Slideshow from '../components/Slideshow'
 import Dropdown from '../components/Dropdown'
 import logements from '../datas/logements.json'
 import { useParams } from 'react-router-dom'
@@ -18,7 +18,7 @@ function FicheLogement ()
               <div className="container-fichelogement" key={ logement.id }>
                      
                      <div className="container-slideshow">
-                            <Carroussel />
+                            <Slideshow />
                      </div>
 
                      <div className="title">
