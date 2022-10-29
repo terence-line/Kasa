@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Home from '../pages/Home'
 import Apropos from '../pages/Apropos'
 import FicheLogement from '../pages/FicheLogement'
-import Error from '../pages/Error'
+import Error from '../components/Error'
 import Footer from '../components/Footer'
 
 
@@ -24,13 +24,12 @@ function App ()
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/apropos" exact component={Apropos} />
+          <Route path="/apropos"  component={Apropos} />
           <Route path="/logements/:id" component={FicheLogement} />
-          <Route path="*" component={ Error } />
+          <Route path="*" component={Error} />
         </Switch>
         <Footer />
       </Router>
-        
     </div>
   )
 }

@@ -10,7 +10,7 @@ function Error ()
         <div className="body-error">
 
             <div className="error">
-                <img src={ logo } alt="erreur 404" className="error-logo" />
+                <img src={logo} alt="erreur 404" className="error-logo" />
                 <h1>Oups! La page que vous demandez n'existe pas.</h1>
                 <Link className="p" to="/">
                     Retourner sur la page d’accueil

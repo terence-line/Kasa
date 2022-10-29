@@ -5,17 +5,16 @@
 }
 
 .error {
-    top: 180px;
+    top: 280px;
     width: 440px;
-    height: 100px;
-    left: 470px;
+    height: 200px;
     position: relative;
 }
 
 .error-logo {
     position: absolute;
     width: 440px;
-    height: 100px;
+    height: 200px;
     display: flex;
     align-items: center;
     size: 288px;
@@ -25,7 +24,7 @@
     height: 51px;
     width: 700px;
     left: -120px;
-    top: 150px;
+    top: 230px;
     position: absolute;
     font-weight: 500;
     font-size: 25px;
@@ -39,7 +38,7 @@
     height: 26px;
     width: 260px;
     left: 90px;
-    top: 300px;
+    top: 400px;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
