@@ -11,7 +11,7 @@
     border-radius: 25px;
     background: #F7F7F7;
     top: 140px;
-    width: 1150px;
+    width: 1240px;
     filter: invert(20%);
 }
 
@@ -19,14 +19,14 @@
     position: relative;
     width: 1023px;
     top: 416px;
-    left: 160px;
+    left: 210px;
 }
 
 .span-apropos {
     height: 29.84px;
     width: 89.5px;
     left: 226.08px;
-    top: 1095px;
+    top: 1150px;
     position: absolute;
     font-style: normal;
     font-weight: 500;

@@ -3,6 +3,7 @@
     overflow: hidden;
     position: relative;
     border-radius: 25px;
+    width: 1240px;
 }
 
 .carroussel button {
@@ -47,7 +48,7 @@
     z-index: 1;
     height: 60px;
     width: 60px;
-    left: 1070px;
+    left: 1155px;
     top: 170px;   
 }
 

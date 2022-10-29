@@ -44,7 +44,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    left: 1025px;
+    left: 1110px;
     display: flex;
     justify-content: center;
     text-align: right;   
@@ -111,7 +111,7 @@
 
 .dropdown-fichelogement-item1, 
 .dropdown-fichelogement-item2 {
-    width: 535px;  
+    width: 575px;  
 }
 
 .dropdown-fichelogement-item2 ul {

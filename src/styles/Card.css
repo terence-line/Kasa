@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    width: 1140px;
+    width: 1240px;
     height: 2760px;
     left: 100px;
     top: 410px;
@@ -13,10 +13,10 @@
 }
 
 .gallery a {
-    height: 320px;
-    width: 320px;
+    height: 340px;
+    width: 340px;
     border-radius: 10px;
-    margin-left: 44px;
+    margin-left: 60px;
     cursor: pointer;
     text-decoration-line: none;
 }
