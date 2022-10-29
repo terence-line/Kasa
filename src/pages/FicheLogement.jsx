@@ -44,13 +44,7 @@ function FicheLogement ()
                                    <Dropdown
                                           title="Equipements" 
                                           text= <ul className="details-item2">
-                                                 <li>Climatisation</li>
-                                                 <li>Wi-Fi</li>
-                                                 <li>Cuisine</li>
-                                                 <li>Espace de travail</li>
-                                                 <li>Fer à repasser </li>
-                                                 <li>Sèche-cheveux</li> 
-                                                 <li>Cintres</li>
+                                                 <li>{logement.equipments}</li>
                                           </ul>
                                    />
                             </div>
