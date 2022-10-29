@@ -2,32 +2,30 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    width: 1200px;
-    height: 2790px;
-    left: 80px;
-    top: 437px;
-    padding-bottom: 43px;
+    width: 1140px;
+    height: 2760px;
+    left: 100px;
+    top: 410px;
     padding-top: 56px;
     background: #F7F7F7;
-    border-radius: 25px;   
+    border-radius: 25px;  
+    margin-bottom: 560px;
 }
 
 .gallery a {
-    height: 340px;
-    width: 340px;
+    height: 320px;
+    width: 320px;
     border-radius: 10px;
     margin-left: 44px;
-    margin-bottom: 50px;
     cursor: pointer;
     text-decoration-line: none;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .gallery h3 {
     height: 52px;
     width: 300px;
     left: 20px;
-    top: 245px;
+    top: 240px;
     display: flex;
     align-items: flex-end;
     position: relative;
@@ -41,12 +39,12 @@
 }
 
 a .image {
-    height: 340px;
-    width: 340px;
+    height: 320px;
+    width: 320px;
     border-radius: 10px;
     position: absolute;
     object-fit: cover;
-    opacity: 0.55;
+    filter: invert(25%);
 }
 
 @media screen and (max-width: 767px) {

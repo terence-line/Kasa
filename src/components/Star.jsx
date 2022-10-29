@@ -1,5 +1,5 @@
 import React from 'react'
-import StarIcon from './Icons/StarIcon'
+import StarIcon from '../assets/Icons/StarIcon'
 import '../styles/Star.css'
 
 

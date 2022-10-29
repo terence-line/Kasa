@@ -4,7 +4,6 @@
     max-width: 1440px;
     min-width: 992px;
     background: #000000;
-    top: 700px;
 }
 
 .footer-p {
@@ -26,11 +25,9 @@
 .footer-logo {
     height: 39.44px;
     width: 122px;
-    left: 50%;
     top: 66px;
     position: absolute;
-    left: 45.76%;
-    right: 45.76%;
+    left: 43%;
     top: 31.58%;
     bottom: 49.55%;
 }

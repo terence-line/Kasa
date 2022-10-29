@@ -1,24 +1,18 @@
 .body-apropos {
     max-width: 1440px;
     min-width: 992px;
+    height: 1300px;
 }
 
-.banner-apropos {
-    position: absolute;
-    width: 1200px;
+.paysage2 {
     height: 223px;
-    left: 80px;
-    top: 152px;
-    background: linear-gradient(to top, #000000 0%, #f6f6f6 100%);
-    border-radius: 25px;
-}
-
-.banner-apropos .paysage2 {
+    left: 100px;
     position: absolute;
     border-radius: 25px;
     background: #F7F7F7;
-    opacity: 0.6;
-    width: 1200px;
+    top: 140px;
+    width: 1150px;
+    filter: invert(20%);
 }
 
 .container_dropdown {

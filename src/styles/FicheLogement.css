@@ -1,21 +1,22 @@
 .container-fichelogement {
     max-width: 1440px;
     min-width: 992px;
+    height: 1200px;
 }
 
 .container-slideshow {
     position: relative;
-    width: 1080px;
+    width: 1150px;
     height: 700px;
     top: 120px;
-    left: 150px;
+    left: 100px;
     border-radius: 25px;
 }
 
 .title {
     position: absolute;
     width: 900px;
-    left: 150px;
+    left: 100px;
     top: 600px;
 }
 
@@ -43,7 +44,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    left: 1006px;
+    left: 1025px;
     display: flex;
     justify-content: center;
     text-align: right;   
@@ -96,14 +97,12 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    left: 150px;
+    left: 100px;
     text-align: left;
     top: 120px;
-    margin-right: 150px;
-    width: 1080px;
-    height: auto;
+    margin-right: 200px;
     list-style: none;
-    margin-bottom: -400px;
+    margin-bottom: -300px;
 }
 
 .dropdown_title {
@@ -112,13 +111,14 @@
 
 .dropdown-fichelogement-item1, 
 .dropdown-fichelogement-item2 {
-    width: 500px;  
+    width: 535px;  
 }
 
 .dropdown-fichelogement-item2 ul {
     list-style-type: none;
     padding-left: 5px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
