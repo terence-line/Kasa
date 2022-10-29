@@ -1,15 +1,14 @@
 .body-error {
     max-width: 1440px;
     min-width: 992px;
-    border: 2px solid black;
-    height: 800px;
+    height: 815px;
 }
 
 .error {
     top: 180px;
     width: 440px;
     height: 100px;
-    left: 420px;
+    left: 470px;
     position: relative;
 }
 
