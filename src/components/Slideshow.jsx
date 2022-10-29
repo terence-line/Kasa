@@ -30,18 +30,18 @@ const Slideshow = () =>
             
             {logement.pictures.length > 1 &&
                 <button onClick={() => setCarrousselIndex(carrousselIndex - 1)}
-                    className='carroussel-btn-left'>
+                    className="carroussel-btn-left white">
                     <img src={icon3} alt="chevron gauche"/></button>}
                         
                 <img src={logement.pictures[carrousselIndex]}
                     alt="Galerie des différentes pièces du logement" className='carroussel-img' />
                     
                 {logement.pictures.length > 1 &&
-                <span className='carroussel-bullet-point'>{ carrousselIndex + 1}/
+                <span className="carroussel-bullet-point">{ carrousselIndex + 1}/
                     {logement.pictures.length}</span> }
 
                 {logement.pictures.length > 1 && <button onClick={() => 
-                    setCarrousselIndex(carrousselIndex + 1)} className='carroussel-btn-right'>
+                    setCarrousselIndex(carrousselIndex + 1)} className="carroussel-btn-right white">
                 <img src={icon4} alt="chevron droite" /></button>}
             
         </div>
