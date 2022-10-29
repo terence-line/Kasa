@@ -6,12 +6,12 @@
 
 .paysage2 {
     height: 223px;
-    left: 100px;
+    left: 45px;
     position: absolute;
     border-radius: 25px;
     background: #F7F7F7;
     top: 140px;
-    width: 1240px;
+    width: 1239px;
     filter: invert(20%);
 }
 
@@ -19,7 +19,7 @@
     position: relative;
     width: 1023px;
     top: 416px;
-    left: 210px;
+    left: -10px;
 }
 
 .span-apropos {

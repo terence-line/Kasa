@@ -1,6 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import '../styles/App.css';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import '../styles/App.css'
 import Header from '../components/Header'
 import Home from '../pages/Home'
 import Apropos from '../pages/Apropos'
@@ -23,16 +23,16 @@ function App ()
       <Router>
         <Header />
         <Switch>
-          <Route path="/" exact component={ Home } />
-          <Route path="/apropos" exact component={ Apropos } />
-          <Route path="/logements/:id" component={ FicheLogement } />
+          <Route path="/" exact component={Home} />
+          <Route path="/apropos" exact component={Apropos} />
+          <Route path="/logements/:id" component={FicheLogement} />
           <Route path="*" component={ Error } />
         </Switch>
         <Footer />
       </Router>
         
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

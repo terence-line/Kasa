@@ -7,7 +7,7 @@
     position: absolute;
     width: 1240px;
     height: 68px;
-    left: 100px;
+    left: 50px;
     top: 40px;
 }
 
@@ -55,7 +55,7 @@ nav a:nth-child(2) {
 
 nav a:first-child:focus,
 nav a:nth-child(2):focus {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 @media screen and (max-width: 991px) {
