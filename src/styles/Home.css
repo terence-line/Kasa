@@ -1,7 +1,6 @@
 body .container-home {
-    width: 1110px;  
+    width: 1240px;  
     margin-left: 50px;
-    border: 2px solid pink;
 }
 
 /*.................. banner ...............*/
@@ -11,16 +10,15 @@ body .container-home {
     height: 223px;
     top: 140px;
     border-radius: 25px;
-    width: 1110px;  
+    width: 1240px;  
     border-radius: 25px;
-    border: 2px solid black;
 }
 
 .banner h1 {
     z-index: 1;
     height: 68px;
     width: 705px;
-    left: 245px;
+    left: 300px;
     top: 50px;
     position: absolute;
     right: 25.14%;
@@ -32,7 +30,7 @@ body .container-home {
 .paysage {
     border-radius: 25px; 
     filter: invert(10%); 
-    width: 1109px; 
+    width: 1240px; 
     height: 223px;
 }
 
@@ -42,8 +40,7 @@ body .container-home {
 .gallery-home {
     margin-top: 290px;
     width: 1105px;
-    height: 2600px;
-    border: 2px solid red;
+    height: 2900px;
 }
 
 
