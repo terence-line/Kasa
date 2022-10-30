@@ -8,11 +8,11 @@ function Apropos ()
 {
 
     return (
-        <div className="body-apropos">
-            <div className="banner-apropos">
-                <img src={image} alt="paysage montagne" className="paysage2" />
-            </div>
 
+        <div className="body-apropos">
+            
+            <img src={image} alt="paysage montagne" className="paysage2" />
+            
             <div className="container_dropdown">
                 <Dropdown title="Fiabilité" text="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes." />
                 <Dropdown title="Respect" text="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme." />

@@ -1,11 +1,12 @@
 .dropdown {
     margin-bottom: 40px;
+    position: relative;
 }
 
 .dropdown_title {
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background: #FF6060;
     font-weight: 500;
