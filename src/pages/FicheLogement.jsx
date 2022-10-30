@@ -43,7 +43,7 @@ function FicheLogement ()
                             <div className='dropdown-fichelogement-item2'>
                                    <Dropdown
                                           title="Equipements" 
-                                          text=<li className="details-item2">{logement.equipments}</li>
+                                          text=<li>{logement.equipments}</li>
                                           
                                    />
                             </div>
