@@ -1,8 +1,8 @@
 .rating {
     position: absolute;
     width:160px;
-    top: 150px;
-    left: 65px;
+    top: 130px;
+    left: 30px;
 }
 
 .rating svg {

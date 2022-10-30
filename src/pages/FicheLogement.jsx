@@ -43,7 +43,6 @@ function FicheLogement ()
                                    <Dropdown title="Description" text={logement.description} />
                             </div>
 
-                            
                             <div className='dropdown-fichelogement-item2'>
                                    <Dropdown
                                           title="Equipements" 
