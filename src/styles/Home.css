@@ -8,7 +8,7 @@ body .container-home {
 .banner {
     position: absolute;
     height: 223px;
-    top: 140px;
+    top: 100px;
     border-radius: 25px;
     width: 1240px;  
     border-radius: 25px;
@@ -38,7 +38,7 @@ body .container-home {
 
 
 .gallery-home {
-    margin-top: 290px;
+    margin-top: 320px;
     width: 1105px;
     height: 2900px;
 }
