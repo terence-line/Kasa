@@ -6,16 +6,20 @@ import logements from '../datas/logements.json'
 import { useParams } from 'react-router-dom'
 import Star from '../components/Star'
 import Tags from '../components/Tags'
+import Error from '../components/Error'
 
 
 function FicheLogement ()
 {
        const params = useParams()
-       const logement = logements.find(l => l.id === params.id)
+       const logement = logements.find( l => l.id === params.id )
+       
+       if (!logement) return <Error />
+
        
        return (
         
-              <div className="container-fichelogement" key={logement.id}>
+              <div className="container-fichelogement">
                      
                      <div className="container-slideshow">
                             <Slideshow />
@@ -43,7 +47,9 @@ function FicheLogement ()
                             <div className='dropdown-fichelogement-item2'>
                                    <Dropdown
                                           title="Equipements" 
-                                          text=<li>{logement.equipments}</li>
+                                          text=<ul>{logement.equipments.map((equipment, index) => (
+                                                 <li key={index}>{equipment}</li>
+                                               ))}</ul>
                                           
                                    />
                             </div>

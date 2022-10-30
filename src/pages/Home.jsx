@@ -5,8 +5,12 @@ import '../styles/Home.css'
 import image from '../assets/eric-muhr-P_XxsdVgtpQ-unsplash.jpg'
 
 
+
 function Home ()
 {
+
+
+
     return (
         
             <div className="container-home">

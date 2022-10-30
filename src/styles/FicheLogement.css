@@ -1,17 +1,20 @@
 .container-fichelogement {
-    max-width: 1440px;
-    min-width: 992px;
-    height: 1200px;
+    width: 1238px;
+    height: 1300px;
+    margin-left: 50px;
+    top: 140px;
 }
+
+/*.............. slideshow .........*/
 
 .container-slideshow {
     position: relative;
-    width: 1150px;
-    height: 700px;
-    top: 120px;
-    left: -50px;
+    width: 1235px;
     border-radius: 25px;
 }
+
+
+/*............... title ............*/
 
 .title {
     position: absolute;
@@ -37,6 +40,9 @@
     color: #FF6060;
 }
 
+
+/*............. host .................*/
+
 .host {
     position: absolute;
     width: 230px;
@@ -47,7 +53,7 @@
     left: 1060px;
     display: flex;
     justify-content: center;
-    text-align: right;   
+    text-align: right; 
 }
 
 .host-picture {
@@ -69,6 +75,7 @@
     text-align: right;
 }
 
+/*..................... dropdown ..............*/
 
 .description h3,
 .equipements h3 {
@@ -97,12 +104,8 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    left: 25px;
-    text-align: left;
-    top: 120px;
-    margin-right: 70px;
-    list-style: none;
-    margin-bottom: -300px;
+    top: 300px;
+    width: 1235px;  
 }
 
 .dropdown_title {
@@ -111,22 +114,19 @@
 
 .dropdown-fichelogement-item1, 
 .dropdown-fichelogement-item2 {
-    width: 575px;  
+    width: 575px;
 }
 
-.dropdown-fichelogement-item2 li {
-    list-style-type: none;
-    margin-left: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+
+.dropdown-fichelogement-item2 ul {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    height: 180px;
-    width: 80px;
-    height: 200px;    
-   
+    list-style: none;
+    text-align: left;
+    margin-top: 0px;
 }
+
+
 
 
 

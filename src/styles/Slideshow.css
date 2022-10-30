@@ -1,9 +1,9 @@
 .carroussel {
-    height: 450px;
+    height: 455px;
     overflow: hidden;
     position: relative;
     border-radius: 25px;
-    width: 1240px;
+    width: 1235px;
 }
 
 .carroussel button {
