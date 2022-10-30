@@ -20,18 +20,16 @@ dont le path ne correspond à aucune route déclarée, et donc de créer une pag
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className="container">
       <Router>
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/apropos"  component={Apropos} />
+          <Route path="/apropos" component={Apropos} />
           <Route path="/logements/:id" component={FicheLogement} />
           <Route path="*" component={Error} />
         </Switch>
         <Footer />
       </Router>
-    </div>
   </React.StrictMode>
 )
 

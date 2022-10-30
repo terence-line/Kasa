@@ -10,7 +10,7 @@ function Apropos ()
     return (
         <div className="body-apropos">
             <div className="banner-apropos">
-                <img src={ image } alt="paysage montagne" className="paysage2" />
+                <img src={image} alt="paysage montagne" className="paysage2" />
             </div>
 
             <div className="container_dropdown">

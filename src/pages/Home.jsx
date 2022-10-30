@@ -9,14 +9,13 @@ function Home ()
 {
     return (
         
-            <div>
+            <div className="container-home">
 
                 <div className="banner">
                     <h1>Chez vous, partout et ailleurs</h1>
-                    <div className="container-paysage">
-                        <img src={image} alt="paysage montagne au bord de l'eau" className="paysage" />
-                    </div>
+                    <img src={image} alt="paysage montagne au bord de l'eau" className="paysage" />
                 </div>
+            
                 <div className="gallery-home">
                     <Card />
                 </div>

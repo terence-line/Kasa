@@ -11,25 +11,25 @@ import Tags from '../components/Tags'
 function FicheLogement ()
 {
        const params = useParams()
-       const logement = logements.find( l => l.id === params.id )
+       const logement = logements.find(l => l.id === params.id)
        
        return (
         
-              <div className="container-fichelogement" key={ logement.id }>
+              <div className="container-fichelogement" key={logement.id}>
                      
                      <div className="container-slideshow">
                             <Slideshow />
                      </div>
 
                      <div className="title">
-                            <h1>{ logement.title }</h1>
-                            <p>{ logement.location }</p>
+                            <h1>{logement.title}</h1>
+                            <p>{logement.location}</p>
                      </div>
 
                      <div className="host">
-                            <span className="span-host">{ logement.host.name }</span>
-                            <img src={ logement.host.picture } alt="" />
-                            <Star value={ parseInt( logement.rating ) } />
+                            <span className="span-host">{logement.host.name}</span>
+                            <img src={logement.host.picture} alt="" />
+                            <Star value={parseInt(logement.rating)} />
                      </div>
 
                      <Tags tags={logement.tags} />

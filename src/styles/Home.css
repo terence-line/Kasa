@@ -1,46 +1,54 @@
-.body-home {
-    max-width: 1440px;
-    min-width: 992px;
+body .container-home {
+    width: 1110px;  
+    margin-left: 50px;
+    border: 2px solid pink;
 }
+
+/*.................. banner ...............*/
 
 .banner {
     position: absolute;
     height: 223px;
-    left: 50px;
     top: 140px;
     border-radius: 25px;
+    width: 1110px;  
+    border-radius: 25px;
+    border: 2px solid black;
 }
 
 .banner h1 {
     z-index: 1;
     height: 68px;
     width: 705px;
-    left: 273px;
-    top: 65px;
+    left: 245px;
+    top: 50px;
     position: absolute;
     right: 25.14%;
     font-weight: 500;
     font-size: 48px;
-    display: flex;
-    align-items: flex-end;
     color: #FFFFFF;
 }
 
-.container-paysage {
-    position: absolute;
-    filter: invert(10%);
+.paysage {
+    border-radius: 25px; 
+    filter: invert(10%); 
+    width: 1109px; 
+    height: 223px;
 }
 
-.paysage {
-    position: absolute;
-    height: 223px;
-    border-radius: 25px;
-    width: 1240px;    
-}
+/*.............. gallery .................*/
+
 
 .gallery-home {
-    top: 380px;
+    margin-top: 290px;
+    width: 1105px;
+    height: 2600px;
+    border: 2px solid red;
 }
+
+
+
+/*............... responsive ...............*/
 
 
 @media screen and (max-width: 767px) {
