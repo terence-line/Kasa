@@ -70,14 +70,17 @@
 @media screen and (max-width: 500px) {
     .body-apropos {
         max-width: 500px;
-        height: 1000px;
+        height: 1200px;
     }
     .paysage2 {
-        width: 765px;  
+        width: 765px; 
+        height: 323px; 
+        margin-bottom: 30px;
     }
     .container_dropdown {
         width: 600px;
         left: 130px;
+        top: 100px;
     }
     .span-apropos {
         height: 29.84px;
