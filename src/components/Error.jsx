@@ -7,6 +7,7 @@ import '../styles/Error.css'
 function Error ()
 {
     return (
+        
         <div className="body-error">
 
             <div className="error">

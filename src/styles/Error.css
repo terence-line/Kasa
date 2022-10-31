@@ -1,4 +1,5 @@
 .body-error {
+    max-width: 1440px;
     position: relative;
     height: 615px;
     width: 550px;
@@ -9,6 +10,7 @@
 .error {
     width: 440px;
     height: 200px;
+    margin-left: 130px;
 }
 
 .error-logo {
@@ -18,14 +20,14 @@
     display: flex;
     align-items: center;
     size: 288px;
-    left: 50px;
+    left: 130px;
 }
 
 .error h1 {
     height: 51px;
     width: 700px;
-    left: -80px;
     top: 230px;
+    left: -20px;
     position: absolute;
     font-weight: 500;
     font-size: 25px;
@@ -38,15 +40,11 @@
 .p {
     height: 26px;
     width: 260px;
-    left: 160px;
+    left: 220px;
     top: 400px;
     font-size: 18px;
     font-weight: 500;
-    line-height: 26px;
-    text-align: left;
     position: absolute;
-    font-weight: 500;
-    font-size: 18px;
     display: flex;
     align-items: flex-end;
     text-decoration-line: underline;
@@ -54,31 +52,59 @@
 }
 
 
-@media screen and (max-width : 767px) {
-    .body-home {
-        max-width: 767.99px;
-        min-width: 320px;
-    }
+/*............. @ media ........................*/
 
+/*  tablette  */
+@media screen and (max-width: 800px) {
+    .body-error {
+        max-width: 800px;
+        height: 700px;
+    }
+    .error {
+        width: 440px;
+        height: 200px;
+        margin-left: 130px;
+        top: 800px;
+       
+    }
+    
+    .error-logo {
+        left: 30px;
+    }
+    .error h1 {
+        left: -100px;    
+    }
+    .p {
+        left: 130px;
+        padding-bottom: 800px;  
+    }    
+}
+
+
+/*  mobile  */
+@media screen and (max-width : 500px) {
+    .body-error {
+        max-width: 500px;
+        margin-bottom: 100px;
+    }
     .error {
         width: 198px;
-        left: 300px;
+        height: 99px;;
         top: 306px;
-        border: 2px solid black;
     }
-
     .error-logo {
         width: 198px;
         height: 99px;
+        margin-left: -30px;
     }
-
     .error h1 {
+        margin-left: 70px;
         padding-right: 400px;
-        text-align: center;
+        top: 150px;
     }
     .p {
-        top: 539px;
-        left: -20px;   
+        top: 400px;
+        left: -30px;  
     }
 
 }
