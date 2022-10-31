@@ -59,7 +59,7 @@ body .container-home {
     
     .banner h1 {
         width: 705px;
-        left: 300px;
+        left: 220px;
         top: 50px;  
     }
     
@@ -102,11 +102,8 @@ body .container-home {
     
     .gallery-home {
         display: flex;
-        flex-direction: column;
         margin-top: -20px;
-        padding-bottom: 40px;
         width: 1105px;
         height: 9600px;
-        margin-bottom: 40px;
     }
 }       
