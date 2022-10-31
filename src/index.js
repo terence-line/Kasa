@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import './styles/Index.css'
 import Header from './components/Header'
 import Home from './pages/Home'
 import Apropos from './pages/Apropos'
 import FicheLogement from './pages/FicheLogement'
-import Error from './components/Error'
+import Error from './pages/Error'
 import Footer from './components/Footer'
 
 

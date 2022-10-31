@@ -6,7 +6,7 @@ import logements from '../datas/logements.json'
 import { useParams } from 'react-router-dom'
 import Star from '../components/Star'
 import Tags from '../components/Tags'
-import Error from '../components/Error'
+import Error from '../pages/Error'
 
 
 function FicheLogement ()
