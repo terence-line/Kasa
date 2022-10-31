@@ -1,5 +1,6 @@
 body .container-home {
-    width: 1240px;  
+    width: 1240px; 
+    height: auto; 
     margin-left: 50px;
 }
 
@@ -36,7 +37,6 @@ body .container-home {
 
 /*.............. gallery .................*/
 
-
 .gallery-home {
     margin-top: 320px;
     width: 1105px;
@@ -45,38 +45,68 @@ body .container-home {
 
 
 
-/*............... responsive ...............*/
+/*............. @ media .........................*/
 
-
-@media screen and (max-width: 767px) {
-    .body-home {
-        max-width: 767.99px;
-        min-width: 320px;
-        height: auto;
+/*  tablette  */
+@media screen and (max-width: 800px) {
+    .body .container-home {
+      width: 1065px;
     }
 
-    .banner, .banner.masked, .masked .paysage1 {
-        width: 728px;
-        height: 161px;
-        left: 20px;
-        background: linear-gradient(to right, #000000 -186%, #f7f7f7 100%);
+    .banner {
+        width: 700px;  
     }
+    
+    .banner h1 {
+        width: 705px;
+        left: 300px;
+        top: 50px;  
+    }
+    
+    .paysage {
+        width: 1065px;  
+    }
+    
+    /*.............. gallery .................*/
+    
+    .gallery-home {
+        margin-top: 320px;
+        width: 1105px;
+        height: 2550px;
+    }
+  }
 
-    .masked .paysage1 {
-        object-fit: cover;
-        left: 0px;
-        right: 10px;
+
+/*  mobile  */
+@media screen and (max-width: 500px) {
+    body .container-home {  
+        width: 760px;
     }
 
     .banner h1 {
-        width: 270px;
-        height: 48px;
-        left: 36px;
-        line-height: 40px;
-        font-weight: 900px;  
-        font-size: 24px;
-        top: 33.04%;
-        padding-right: 70px;
+        width: 600px;
+        left: -30px;
+        top: 30px;
+        height: 128px;
+        font-size: 35px;
+        padding-left: 60px;
+        padding-right: 250px;
     }
-
+    
+    .paysage {
+        width: 755px; 
+        filter: invert(15%);    
+    }
+    
+    /*.............. gallery .................*/
+    
+    .gallery-home {
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+        padding-bottom: 40px;
+        width: 1105px;
+        height: 9600px;
+        margin-bottom: 40px;
+    }
 }       
