@@ -50,14 +50,13 @@ a .image {
  /*  tablette  */
  @media screen and (max-width: 800px) {
     .gallery {
-        width: 760px;
-        margin-left: 20px;
+        width: 1065px;
     }
 
     .gallery a {
         height: 290px;
         width: 290px;
-        margin-left: 20px; 
+        margin-left: 45px; 
     }
     
     .gallery h3 {
