@@ -43,7 +43,9 @@
 }
 
 
-@media screen and (max-width:767px) {
+/*.............. responsive ................*/
+
+@media screen and (max-width:800px) {
     .body-apropos {
         max-width: 767.99px;
         min-width: 320px;
