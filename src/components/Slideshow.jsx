@@ -29,9 +29,8 @@ const Slideshow = () =>
         <div className='carroussel'>
             
             {logement.pictures.length > 1 &&
-                <button onClick={() => setCarrousselIndex(carrousselIndex - 1)}
-                    className="carroussel-btn-left">
-                    <img src={icon3} alt="chevron gauche"/></button>}
+                <button className="button-left" onClick={() => setCarrousselIndex(carrousselIndex - 1)}>
+                    <img src={icon3} alt="chevron gauche" className="carroussel-btn-left" /></button>}
                         
                 <img src={logement.pictures[carrousselIndex]}
                     alt="Galerie des différentes pièces du logement" className='carroussel-img' />
@@ -40,9 +39,9 @@ const Slideshow = () =>
                 <span className="carroussel-bullet-point">{ carrousselIndex + 1}/
                     {logement.pictures.length}</span> }
 
-                {logement.pictures.length > 1 && <button onClick={() => 
-                    setCarrousselIndex(carrousselIndex + 1)} className="carroussel-btn-right">
-                <img src={icon4} alt="chevron droite" /></button>}
+                {logement.pictures.length > 1 && <button className="button-right" onClick={() => 
+                    setCarrousselIndex(carrousselIndex + 1)}>
+                <img src={icon4} alt="chevron droite" className="carroussel-btn-right" /></button>}
             
         </div>
     )

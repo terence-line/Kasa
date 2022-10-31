@@ -25,25 +25,49 @@
     font-weight: 500;
 }
 
-.carroussel-btn-left img {
+.button-left {
     position: absolute;
     z-index: 1;
-    left: 10px;
-    top: 210px;
-    height: 40px;
     width: 90px;
+    height: 40px;
+    padding-left: 80px;
+    top: 210px;
     transform:rotate(90deg);
+    background: none;
+    border: none;
+}
+.carroussel-btn-left {
+    width: 90px;
+    height: 40px;
+    left: 10px;
+    margin-top: 0px;
+    margin-left: -75px;
+    transform:rotate(0deg);
 }
 
-.carroussel-btn-right img{
+.button-right {
     position: absolute;
     z-index: 1;
-    height: 40px;
     width: 90px;
-    left: 1150px;
-    top: 210px; 
-    transform:rotate(270deg);  
+    height: 40px;
+    margin-top: 50px;
+    background: none;
+    margin-left: 1150px;
+    margin-top: 210px;
+    transform:rotate(270deg); 
+    border: none;
 }
+.carroussel-btn-right  {
+    position: absolute;
+    transform:rotate(0deg);
+    height: 40px;
+    width: 90px; 
+    margin-left: -45px;
+    margin-top: -20px;
+    padding-left: -40px;
+}
+
+
 
 
 /*............. @ media ........................*/
@@ -54,26 +78,21 @@
         width: 1065px;
     }
     
-    .carroussel-btn-right {
-        left: 985px; 
+    .button-right {
+        margin-left: 975px;  
     }
 }
 
 
 /*  mobile  */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 500px) {
     .carroussel {
         height: 500px;
         width: 760px;
         top: 40px;
     }
-
-    .carroussel-btn-left {
-        top: 230px;   
-    }
     
-    .carroussel-btn-right {
-        left: 685px; 
-        top: 220px;
+    .button-right {
+        margin-left: 670px;  
     }
 }

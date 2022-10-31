@@ -21,10 +21,8 @@ function FicheLogement ()
         
               <div className="container-fichelogement">
                      
-                     <div className="container-slideshow">
-                            <Slideshow />
-                     </div>
-
+                     <Slideshow />
+                     
                      <div className="title">
                             <h1>{logement.title}</h1>
                             <p>{logement.location}</p>

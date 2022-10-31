@@ -5,15 +5,6 @@
     top: 140px;
 }
 
-/*.............. slideshow .........*/
-
-.container-slideshow {
-    position: relative;
-    width: 1235px;
-    border-radius: 25px;
-}
-
-
 /*............... title ............*/
 
 .title {
@@ -133,14 +124,11 @@
 /*  tablette  */
 @media screen and (max-width: 800px) {
     .container-fichelogement, 
-    .container-slideshow,
     .dropdown-fichelogement {
         width: 1065px;
     }
     .container-fichelogement {
-       
-        height: 1500px;
-      
+        height: 1500px;  
     }
 
     .host {
@@ -176,11 +164,11 @@
         display: block;
         flex-direction: column;
         top: 370px;
-        width: 740px;
-        
+        width: 740px;   
     }
 
-    .dropdown-fichelogement-item1, .dropdown-fichelogement-item2 {  
+    .dropdown-fichelogement-item1, 
+    .dropdown-fichelogement-item2 {  
         width: 740px;
         padding-left: -20px;
         top: 1000px;
