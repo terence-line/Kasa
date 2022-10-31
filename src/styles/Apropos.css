@@ -33,7 +33,6 @@
     left: 226.08px;
     top: 1150px;
     position: absolute;
-    font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 142.6%;
@@ -43,43 +42,48 @@
 }
 
 
-/*.............. responsive ................*/
+/*............. @ media ........................*/
 
+/*  tablette  */
 @media screen and (max-width:800px) {
     .body-apropos {
-        max-width: 767.99px;
-        min-width: 320px;
+        max-width: 800px;
+        height: 900px;
     }
-
-    .banner-apropos { 
-        max-width: 728px;
-        left: 20px;
-        height: 400px;
-        min-width: 336px;
+    .paysage2 {
+        width: 1065px;  
     }
-    
-
-    .banner-apropos .paysage2 {
-        max-width: 728px;
-        height: 400px;
-        min-width: 335px;   
-    }
-    
     .container_dropdown {
-        max-width: 728px;
-        min-width: 375px;
-        left: 20px;
-        top: 600px;
+        width: 800px;
+        margin-top: 255px;
+        left: 180px;
     }
+    .span-apropos {
+        height: 29.84px;
+        width: 89.5px;
+        left: 226.08px;
+        top: 1100px; 
+    }   
+}
 
-    .span-apropos  {
-        max-width: 768;
-        min-width: 375px;
-        left: 40px;
-        margin-top: 60px;
-        top: 1300px;
+/*  mobile  */
+@media screen and (max-width: 500px) {
+    .body-apropos {
+        max-width: 500px;
+        height: 1000px;
     }
-
-    
+    .paysage2 {
+        width: 765px;  
+    }
+    .container_dropdown {
+        width: 600px;
+        left: 130px;
+    }
+    .span-apropos {
+        height: 29.84px;
+        width: 89.5px;
+        left: 150px;
+        top: 1190px; 
+    }   
 }
     
