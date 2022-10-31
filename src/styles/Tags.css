@@ -21,7 +21,7 @@
 /*............. @ media .........................*/
 
 /*  mobile  */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 500px) {
     .tags {
         top: 750px;
         gap: 20px;

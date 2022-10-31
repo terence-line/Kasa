@@ -12,7 +12,7 @@
 
 /*............. @ media .........................*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 500px) {
     .rating {
         top: 40px;
         left: -570px;
