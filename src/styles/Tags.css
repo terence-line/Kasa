@@ -17,3 +17,20 @@
     list-style: none;
     font-weight: 500;
 }
+
+/*............. @ media .........................*/
+
+/*  mobile  */
+@media screen and (max-width: 767px) {
+    .tags {
+        top: 750px;
+        gap: 20px;
+    } 
+    
+    .tags-text {
+        height: 35px;
+        padding: 5px 40px 15px 40px;
+        font-size: 16px;
+     
+    }
+}

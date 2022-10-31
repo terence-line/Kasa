@@ -33,9 +33,6 @@
     left: calc(50% - 25px);
     font-weight: 500;
 }
-.white {
-    color: #FFFFFF !important;
-}
 
 .carroussel-btn-left {
     position: absolute;
@@ -56,3 +53,34 @@
 }
 
 
+/*............. @ media ........................*/
+
+/*  tablette  */
+@media screen and (max-width: 800px) {
+    .carroussel {
+        width: 1065px;
+    }
+    
+    .carroussel-btn-right {
+        left: 985px; 
+    }
+}
+
+
+/*  mobile  */
+@media screen and (max-width: 767px) {
+    .carroussel {
+        height: 500px;
+        width: 760px;
+        top: 40px;
+    }
+
+    .carroussel-btn-left {
+        top: 230px;   
+    }
+    
+    .carroussel-btn-right {
+        left: 685px; 
+        top: 220px;
+    }
+}

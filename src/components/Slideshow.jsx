@@ -30,7 +30,7 @@ const Slideshow = () =>
             
             {logement.pictures.length > 1 &&
                 <button onClick={() => setCarrousselIndex(carrousselIndex - 1)}
-                    className="carroussel-btn-left white">
+                    className="carroussel-btn-left">
                     <img src={icon3} alt="chevron gauche"/></button>}
                         
                 <img src={logement.pictures[carrousselIndex]}
@@ -41,7 +41,7 @@ const Slideshow = () =>
                     {logement.pictures.length}</span> }
 
                 {logement.pictures.length > 1 && <button onClick={() => 
-                    setCarrousselIndex(carrousselIndex + 1)} className="carroussel-btn-right white">
+                    setCarrousselIndex(carrousselIndex + 1)} className="carroussel-btn-right">
                 <img src={icon4} alt="chevron droite" /></button>}
             
         </div>

@@ -9,3 +9,12 @@
     width: 30px;
     height: 30px;
 }
+
+/*............. @ media .........................*/
+
+@media screen and (max-width: 767px) {
+    .rating {
+        top: 40px;
+        left: -570px;
+    }
+}

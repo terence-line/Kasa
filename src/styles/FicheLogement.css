@@ -127,56 +127,63 @@
 }
 
 
+/*............. @ media .........................*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 767px) {
+/*  tablette  */
+@media screen and (max-width: 800px) {
+    .container-fichelogement, 
+    .container-slideshow,
+    .dropdown-fichelogement {
+        width: 1065px;
+    }
     .container-fichelogement {
-        max-width: 767.99px;
-        min-width: 320px;
-    }
-
-    .title, .title h1, .title p {
-        left: 10px;
-    }
-
-   
-
-    .span-fichelogement {
-        display: flex;
-        flex-direction: column;  
+       
+        height: 1500px;
+      
     }
 
     .host {
-        top: 750px;
-        left: 660px; 
+        left: 900px;    
     }
 
-    
+    .dropdown-fichelogement-item1, 
+    .dropdown-fichelogement-item2 {
+        width: 475px;
+    }
+}
+
+
+/*  mobile  */
+@media screen and (max-width: 500px) {
+    .container-fichelogement {
+        max-width: 500px;
+    }
+
+    .title {
+        width: 500px;
+        height: 30px;;
+        left: 50px;
+        top: 600px;
+    }
+
+    .host {
+        top: 805px;
+        left: 600px; 
+    }
 
     .dropdown-fichelogement {
         display: block;
         flex-direction: column;
-        top: 770px;
+        top: 370px;
         width: 740px;
-        left: 20px;  
+        
     }
 
     .dropdown-fichelogement-item1, .dropdown-fichelogement-item2 {  
         width: 740px;
-        height: auto;
         padding-left: -20px;
+        top: 1000px;
     }
 }
 
