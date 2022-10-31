@@ -32,10 +32,19 @@
 }
 
 
-@media screen and (max-width: 767px) {
+/*............. @ media ........................*/
+
+ /*  tablette  */
+ @media screen and (max-width: 800px) {
     .footer {
-       max-width: 767.99px;
-       min-width: 320px;
+      width: 1160px;
+    }
+  }
+
+/*  mobile  */
+@media screen and (max-width: 500px) {
+    .footer {
+      width: 860px;
     }
 
     .footer-p { 
