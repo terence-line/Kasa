@@ -21,7 +21,6 @@ nav a {
     align-items: flex-end;
     text-align: right;
     color: #FF6060;
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 142.6%;
@@ -46,24 +45,30 @@ nav a:nth-child(2):focus {
 }
 
 
-/*............... responsive ..............*/
+/*............. @ media ........................*/
 
 
-@media screen and (max-width: 991px) {
+/*  tablette  */
+@media screen and (max-width: 800px) {
     .body-header {
-        max-width: 991px;
-        min-width: 768px;
+        width: 760px;
     }
+
+    .header {
+        width: 1065px;
+    }
+
+    nav a {
+        left: 60%;  
+    }
+    
+    nav a:nth-child(2) {
+        left: 955px;
+    }    
 }
 
-
-@media screen and (max-width:767px) {
-    .body-header {
-        max-width: 767.99px;
-        min-width: 320px;
-        height: auto;
-    }
-
+/*  mobile  */
+@media screen and (max-width: 500px) {
     .header { 
         width: 335px;
         height: 47px;
