@@ -6,15 +6,6 @@
     width: 1235px;
 }
 
-.carroussel button {
-    background: none;
-    border: none;
-}
-
-.carroussel_btn {
-    position: absolute;
-    }
-    
 .carroussel-img {
     position: absolute;
     width: 100%;
@@ -34,22 +25,24 @@
     font-weight: 500;
 }
 
-.carroussel-btn-left {
+.carroussel-btn-left img {
     position: absolute;
     z-index: 1;
-    left: 20px;
-    top: 180px;
-    height: 60px;
-    width: 60px;
+    left: 10px;
+    top: 210px;
+    height: 40px;
+    width: 90px;
+    transform:rotate(90deg);
 }
 
-.carroussel-btn-right {
+.carroussel-btn-right img{
     position: absolute;
     z-index: 1;
-    height: 60px;
-    width: 60px;
-    left: 1155px;
-    top: 170px;   
+    height: 40px;
+    width: 90px;
+    left: 1150px;
+    top: 210px; 
+    transform:rotate(270deg);  
 }
 
 

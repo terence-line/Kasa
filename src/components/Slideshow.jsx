@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import logements from '../datas/logements.json'
 import '../styles/Slideshow.css'
-import icon3 from '../assets/chevron-left-solid.svg'
-import icon4 from '../assets/chevron-right-solid.svg'
+import icon3 from '../assets/chevron.png'
+import icon4 from '../assets/chevron.png'
 
 
 const Slideshow = () =>
