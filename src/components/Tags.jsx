@@ -1,7 +1,9 @@
-import React from 'react';
+import React from 'react'
 import '../styles/Tags.css'
 
-const Tags = ({tags}) => {
+const Tags = ( { tags } ) =>
+{
+    
     return (
         <div>
             <ul className="tags">
@@ -10,7 +12,7 @@ const Tags = ({tags}) => {
                     ) }
             </ul>
         </div>
-    );
-};
+    )
+}
 
-export default Tags;
+export default Tags

@@ -16,7 +16,6 @@ function FicheLogement ()
        
        if (!logement) return <Error />
 
-       
        return (
         
               <div className="container-fichelogement">
@@ -55,7 +54,6 @@ function FicheLogement ()
         
        )
 }
-
 
 export default FicheLogement
 

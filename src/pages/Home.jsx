@@ -1,4 +1,4 @@
-//import { useState, useEffect } from "react"
+
 import React from "react"
 import Card from '../components/Card'
 import '../styles/Home.css'
@@ -8,8 +8,6 @@ import image from '../assets/eric-muhr-P_XxsdVgtpQ-unsplash.jpg'
 
 function Home ()
 {
-
-
 
     return (
         
